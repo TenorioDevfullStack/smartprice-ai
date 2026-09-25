@@ -1,0 +1,21 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Modelos gerados
+models/*.pkl
+models/*.joblib
