@@ -1,0 +1,78 @@
+{
+  "git_status_before": " M .gitignore\n M notebooks/01_exploracao.ipynb\n?? docs/\n?? models/\n?? src/\n?? tests/\n",
+  "files": {
+    ".gitignore": {
+      "bytes": 367,
+      "sha256": "a7288a9bb198cad9f3d2922c666ca62fd481dbf27f148620818bfb8da44ddf46"
+    },
+    "README.md": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "requirements.txt": {
+      "bytes": 4436,
+      "sha256": "27d05421f80fed65b1ba00ef6ce848d15071118b3f14811777e1edd0b10cbaed"
+    },
+    "models/baseline_v1_manifesto.json": {
+      "bytes": 20968,
+      "sha256": "82bce1259ffbea9dc78382ab10fdaad1ff16db47e8dc03b8669a09fe856c1109"
+    },
+    "models/baseline_v1_recuperado.joblib": {
+      "bytes": 65634,
+      "sha256": "6cd765e9f90c11cb6cc2d4642325af872523d61141a9f511c497c9a58055dcb6"
+    },
+    "notebooks/01_exploracao.ipynb": {
+      "bytes": 704816,
+      "sha256": "6d91d757784178493ed3c21f9397b58fe85983409978e9a3baf06aaa7b3eafcc"
+    },
+    "src/diagnosticar_baseline_v1.py": {
+      "bytes": 39354,
+      "sha256": "bdd3489f1ba1d52f9c881ae192dea8ee34ad8ed65e2aca47d0239fa88090ebcb"
+    },
+    "src/recuperar_baseline_v1.py": {
+      "bytes": 10004,
+      "sha256": "7be396843e8eb18b5d69b8827ad963d12d0d9c621b4c9b87890c18971cac00d9"
+    },
+    "tests/test_baseline_v1_artifacts.py": {
+      "bytes": 4932,
+      "sha256": "392f0df5ef4ef8239e8f3cc74aba67bf5f968f419bfe475c0c6f276757cdb244"
+    },
+    "docs/diagnostico_baseline_v1_2026-10-16/01_real_vs_previsto.png": {
+      "bytes": 324778,
+      "sha256": "dfe5f0df1e93a7425c9c006c47a651676751bf4f59b575b8d61a6411aa9cf5f5"
+    },
+    "docs/diagnostico_baseline_v1_2026-10-16/02_erros_por_cobertura_cep.png": {
+      "bytes": 59994,
+      "sha256": "b422d42bbf1aeaf15a3ac39f8e6d80a9677b7b58d2647b1ed1c9c5b86c068ed3"
+    },
+    "docs/diagnostico_baseline_v1_2026-10-16/relatorio.md": {
+      "bytes": 20244,
+      "sha256": "59a731f220e13c04d1aae8e45f2cf33d0957c16bdfe76bf3e919611131441792"
+    },
+    "docs/diagnostico_baseline_v1_2026-10-16/resumo_metricas.json": {
+      "bytes": 44755,
+      "sha256": "e85c67965c82327c6ed45cb7eb37ff1a1078931f1762edd697a85104f2f7c7dc"
+    },
+    "docs/superpowers/plans/2026-10-08-recuperacao-baseline-v1.md": {
+      "bytes": 1429,
+      "sha256": "e4c91ccae2d53848027cf92fa6bd052ff3ef229fc7a5529b15da1a75ed94a5cb"
+    },
+    "docs/superpowers/plans/2026-10-16-diagnostico-baseline-v1.md": {
+      "bytes": 2382,
+      "sha256": "9c3931ec00e0f5fc3bbaa6e4e0cf025aec3f471cfe55e1f9c65d1ca396865024"
+    },
+    "data/processed/baseline_v1_particoes.joblib": {
+      "bytes": 1540597,
+      "sha256": "23b11bf70d7646dd90307a4caf347804f873c0f7083be54f5c6d0bdc3cc4e345"
+    },
+    "data/processed/baseline_v1_previsoes_teste.csv": {
+      "bytes": 582264,
+      "sha256": "ad8a20d4e4fe10f567fb943526ed9b95a1b0e2d4ca025a6d18a25be98e0d5be2"
+    },
+    "data/raw/GUIAS DE ITBI PAGAS (28012026) XLS.xlsx": {
+      "bytes": 46666755,
+      "sha256": "2735033e018d44c4280b22d24a69f774221fd0e441534dd4d77810f80b7a31b5"
+    }
+  },
+  "source": "workspace local; snapshot before implementation; excludes new plan"
+}

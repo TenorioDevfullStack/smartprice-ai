@@ -1,0 +1,1334 @@
+{
+  "metodologia": {
+    "erro_assinado": "previsto - real",
+    "unidade": "R$",
+    "alto_valor": "real > 5.000.000",
+    "negativo": "previsto < 0",
+    "grupos_exploratorios": "faixas de área e categorias originais; sem ajuste, inferência causal ou testes de significância"
+  },
+  "global": {
+    "n": 12566,
+    "MAE": 288838.43365456635,
+    "RMSE": 954108.0794786493,
+    "R2": 0.6064064201089863,
+    "vies_medio": -9513.367245026404,
+    "vies_mediano": -7978.298628182849,
+    "erro_absoluto_mediano": 124050.78926702146,
+    "erro_percentual_absoluto_mediano": 25.148626479558757,
+    "subestimados": 6535,
+    "negativos": 326,
+    "soma_erro_absoluto": 3629543757.303281,
+    "soma_erro_quadratico": 1.1439109108584002e+16
+  },
+  "alto_valor": {
+    "n": 141,
+    "MAE": 4328012.7585044,
+    "RMSE": 7747262.971084695,
+    "R2": 0.1793624628709244,
+    "vies_medio": -3964119.023497333,
+    "vies_mediano": -2271821.952282279,
+    "erro_absoluto_mediano": 2370760.506678687,
+    "erro_percentual_absoluto_mediano": 33.11520570041838,
+    "subestimados": 129,
+    "negativos": 0,
+    "soma_erro_absoluto": 610249798.9491204,
+    "soma_erro_quadratico": 8462831779582749.0
+  },
+  "demais_valores": {
+    "n": 12425,
+    "MAE": 243001.52582327247,
+    "RMSE": 489427.6482354094,
+    "R2": 0.4485886970074765,
+    "vies_medio": 35363.847848058125,
+    "vies_mediano": -5927.452372056316,
+    "erro_absoluto_mediano": 121812.1958891449,
+    "erro_percentual_absoluto_mediano": 24.980376850713313,
+    "subestimados": 6406,
+    "negativos": 326,
+    "soma_erro_absoluto": 3019293958.3541603,
+    "soma_erro_quadratico": 2976277329001252.0
+  },
+  "negativos": {
+    "n": 326,
+    "MAE": 452982.156129477,
+    "RMSE": 544565.4286353287,
+    "R2": -10.011738833962808,
+    "vies_medio": -452982.156129477,
+    "vies_mediano": -364041.04166014725,
+    "erro_absoluto_mediano": 364041.04166014725,
+    "erro_percentual_absoluto_mediano": 136.8070309810904,
+    "subestimados": 326,
+    "negativos": 326,
+    "soma_erro_absoluto": 147672182.8982095,
+    "soma_erro_quadratico": 96675790977118.03
+  },
+  "nao_negativos": {
+    "n": 12240,
+    "MAE": 284466.6318958392,
+    "RMSE": 962636.6857196814,
+    "R2": 0.6084848358785251,
+    "vies_medio": 2297.9746811444215,
+    "vies_mediano": -2963.0253828185378,
+    "erro_absoluto_mediano": 118786.08023499919,
+    "erro_percentual_absoluto_mediano": 24.22177310954655,
+    "subestimados": 6209,
+    "negativos": 0,
+    "soma_erro_absoluto": 3481871574.4050713,
+    "soma_erro_quadratico": 1.1342433317606882e+16
+  },
+  "perfis": {
+    "alto_valor": {
+      "real": {
+        "ausentes": 0,
+        "media": 10456424.36141844,
+        "0.0": 5009238.93,
+        "0.25": 6100000.0,
+        "0.5": 7700000.0,
+        "0.75": 11540000.0,
+        "1.0": 70000000.0
+      },
+      "previsto": {
+        "ausentes": 0,
+        "media": 6492305.337921107,
+        "0.0": 1912402.245977074,
+        "0.25": 4395584.24368967,
+        "0.5": 5528178.047717721,
+        "0.75": 7190551.019768825,
+        "1.0": 23405365.400021445
+      },
+      "Área Construída (m2)": {
+        "ausentes": 0,
+        "media": 580.6312056737588,
+        "0.0": 273.0,
+        "0.25": 444.0,
+        "0.5": 509.0,
+        "0.75": 648.0,
+        "1.0": 2023.0
+      },
+      "ACC (IPTU)": {
+        "ausentes": 0,
+        "media": 2007.4964539007092,
+        "0.0": 1950.0,
+        "0.25": 1992.0,
+        "0.5": 2015.0,
+        "0.75": 2023.0,
+        "1.0": 2025.0
+      },
+      "erro": {
+        "ausentes": 0,
+        "media": -3964119.023497333,
+        "0.0": -58449113.611601725,
+        "0.25": -4267459.999718861,
+        "0.5": -2271821.952282279,
+        "0.75": -1092668.9776479118,
+        "1.0": 7700529.5312618315
+      },
+      "erro_abs": {
+        "ausentes": 0,
+        "media": 4328012.7585044,
+        "0.0": 6752.520127856173,
+        "0.25": 1397678.3402688783,
+        "0.5": 2370760.506678687,
+        "0.75": 4562531.716388334,
+        "1.0": 58449113.611601725
+      }
+    },
+    "demais_valores": {
+      "real": {
+        "ausentes": 0,
+        "media": 669795.6086350101,
+        "0.0": 10000.0,
+        "0.25": 285000.0,
+        "0.5": 435000.0,
+        "0.75": 799000.0,
+        "1.0": 5000000.0
+      },
+      "previsto": {
+        "ausentes": 0,
+        "media": 705159.4564830682,
+        "0.0": -1717321.077722229,
+        "0.25": 270079.24773015897,
+        "0.5": 460673.474402937,
+        "0.75": 858949.1967204799,
+        "1.0": 13101981.773374144
+      },
+      "Área Construída (m2)": {
+        "ausentes": 0,
+        "media": 123.74760563380282,
+        "0.0": 7.0,
+        "0.25": 69.0,
+        "0.5": 100.0,
+        "0.75": 148.0,
+        "1.0": 1134.0
+      },
+      "ACC (IPTU)": {
+        "ausentes": 0,
+        "media": 2003.1910663983904,
+        "0.0": 1927.0,
+        "0.25": 1988.0,
+        "0.5": 2010.0,
+        "0.75": 2021.0,
+        "1.0": 2025.0
+      },
+      "erro": {
+        "ausentes": 0,
+        "media": 35363.847848058125,
+        "0.0": -3349093.763640664,
+        "0.25": -123288.12956969033,
+        "0.5": -5927.452372056316,
+        "0.75": 119409.35678063752,
+        "1.0": 9601981.773374144
+      },
+      "erro_abs": {
+        "ausentes": 0,
+        "media": 243001.52582327247,
+        "0.0": 4.491359172621742,
+        "0.25": 50299.15688580228,
+        "0.5": 121812.1958891449,
+        "0.75": 265960.523949352,
+        "1.0": 9601981.773374144
+      }
+    },
+    "negativos": {
+      "real": {
+        "ausentes": 0,
+        "media": 279039.27794478525,
+        "0.0": 15286.0,
+        "0.25": 190000.0,
+        "0.5": 250000.0,
+        "0.75": 330000.0,
+        "1.0": 1630000.0
+      },
+      "previsto": {
+        "ausentes": 0,
+        "media": -173942.8781846917,
+        "0.0": -1717321.077722229,
+        "0.25": -197824.71774302097,
+        "0.5": -95638.50589423417,
+        "0.75": -39479.73744252013,
+        "1.0": -435.50345158809796
+      },
+      "Área Construída (m2)": {
+        "ausentes": 0,
+        "media": 58.76687116564417,
+        "0.0": 7.0,
+        "0.25": 40.0,
+        "0.5": 49.0,
+        "0.75": 60.0,
+        "1.0": 265.0
+      },
+      "ACC (IPTU)": {
+        "ausentes": 0,
+        "media": 1983.5276073619632,
+        "0.0": 1940.0,
+        "0.25": 1967.0,
+        "0.5": 1974.0,
+        "0.75": 2009.0,
+        "1.0": 2025.0
+      },
+      "erro": {
+        "ausentes": 0,
+        "media": -452982.156129477,
+        "0.0": -2153278.097722229,
+        "0.25": -511429.2589906291,
+        "0.5": -364041.04166014725,
+        "0.75": -276297.5974613972,
+        "1.0": -78416.3588782741
+      },
+      "erro_abs": {
+        "ausentes": 0,
+        "media": 452982.156129477,
+        "0.0": 78416.3588782741,
+        "0.25": 276297.5974613972,
+        "0.5": 364041.04166014725,
+        "0.75": 511429.2589906291,
+        "1.0": 2153278.097722229
+      }
+    },
+    "nao_negativos": {
+      "real": {
+        "ausentes": 0,
+        "media": 792941.1329771242,
+        "0.0": 10000.0,
+        "0.25": 290541.82,
+        "0.5": 450000.0,
+        "0.75": 825000.0,
+        "1.0": 70000000.0
+      },
+      "previsto": {
+        "ausentes": 0,
+        "media": 795239.1076582685,
+        "0.0": 186.02418991166633,
+        "0.25": 284374.4119983495,
+        "0.5": 476807.1330067783,
+        "0.75": 901294.8662565222,
+        "1.0": 23405365.400021445
+      },
+      "Área Construída (m2)": {
+        "ausentes": 0,
+        "media": 130.74142156862746,
+        "0.0": 21.0,
+        "0.25": 71.0,
+        "0.5": 102.0,
+        "0.75": 153.0,
+        "1.0": 2023.0
+      },
+      "ACC (IPTU)": {
+        "ausentes": 0,
+        "media": 2003.7643790849672,
+        "0.0": 1927.0,
+        "0.25": 1989.0,
+        "0.5": 2010.0,
+        "0.75": 2021.0,
+        "1.0": 2025.0
+      },
+      "erro": {
+        "ausentes": 0,
+        "media": 2297.9746811444215,
+        "0.0": -58449113.611601725,
+        "0.25": -114716.72244639578,
+        "0.5": -2963.0253828185378,
+        "0.75": 123968.43959205077,
+        "1.0": 9601981.773374144
+      },
+      "erro_abs": {
+        "ausentes": 0,
+        "media": 284466.6318958392,
+        "0.0": 4.491359172621742,
+        "0.25": 49406.85739202291,
+        "0.5": 118786.08023499919,
+        "0.75": 260250.23600995608,
+        "1.0": 58449113.611601725
+      }
+    }
+  },
+  "cobertura": {
+    "ceps_distintos_treino": 7120,
+    "ceps_distintos_teste": 4480,
+    "ceps_distintos_intersecao": 4067,
+    "ceps_distintos_ineditos": 413,
+    "registros_ineditos": 532,
+    "ausentes_treino": 0,
+    "ausentes_teste": 0,
+    "metricas": [
+      {
+        "grupo": "Conhecido",
+        "n": 12034,
+        "MAE": 285130.5495910684,
+        "RMSE": 959321.338191105,
+        "R2": 0.6110140260367687,
+        "vies_medio": -14294.834052029546,
+        "vies_mediano": -8416.35379637056,
+        "erro_absoluto_mediano": 122465.60159920368,
+        "erro_percentual_absoluto_mediano": 24.632100800067583,
+        "subestimados": 6267,
+        "negativos": 304,
+        "soma_erro_absoluto": 3431261033.7789173,
+        "soma_erro_quadratico": 1.1074859271522168e+16
+      },
+      {
+        "grupo": "Inédito",
+        "n": 532,
+        "MAE": 372711.8863239916,
+        "RMSE": 827454.013739176,
+        "R2": 0.38092183070449415,
+        "vies_medio": 98644.84996451462,
+        "vies_mediano": -3023.225327541819,
+        "erro_absoluto_mediano": 161540.0781361214,
+        "erro_percentual_absoluto_mediano": 39.966552559946706,
+        "subestimados": 268,
+        "negativos": 22,
+        "soma_erro_absoluto": 198282723.52436352,
+        "soma_erro_quadratico": 364249837061834.56
+      }
+    ],
+    "metricas_sem_alto_valor": [
+      {
+        "grupo": "Conhecido",
+        "n": 11899,
+        "MAE": 238521.3456893615,
+        "RMSE": 476472.5848810821,
+        "R2": 0.47559827911770347,
+        "vies_medio": 32487.65924292393,
+        "vies_mediano": -6007.747482399689,
+        "erro_absoluto_mediano": 120347.56186068291,
+        "erro_percentual_absoluto_mediano": 24.47359733540531,
+        "subestimados": 6141,
+        "negativos": 304,
+        "soma_erro_absoluto": 2838165492.3577127,
+        "soma_erro_quadratico": 2701383851180651.0
+      },
+      {
+        "grupo": "Inédito",
+        "n": 526,
+        "MAE": 344350.69581073726,
+        "RMSE": 722918.511703692,
+        "R2": -0.12458023168047694,
+        "vies_medio": 100428.04597066609,
+        "vies_mediano": -3023.225327541819,
+        "erro_absoluto_mediano": 160428.66845500097,
+        "erro_percentual_absoluto_mediano": 39.966552559946706,
+        "subestimados": 265,
+        "negativos": 22,
+        "soma_erro_absoluto": 181128465.9964478,
+        "soma_erro_quadratico": 274893477820601.47
+      }
+    ],
+    "metricas_alto_valor": [
+      {
+        "grupo": "Conhecido",
+        "n": 135,
+        "MAE": 4393300.306823738,
+        "RMSE": 7875642.440739778,
+        "R2": 0.18397973740219764,
+        "vies_medio": -4137738.446767966,
+        "vies_mediano": -2370760.506678687,
+        "erro_absoluto_mediano": 2496322.144566718,
+        "erro_percentual_absoluto_mediano": 33.11520570041838,
+        "subestimados": 126,
+        "negativos": 0,
+        "soma_erro_absoluto": 593095541.4212046,
+        "soma_erro_quadratico": 8373475420341516.0
+      },
+      {
+        "grupo": "Inédito",
+        "n": 6,
+        "MAE": 2859042.9213192896,
+        "RMSE": 3859109.552760262,
+        "R2": -4.913349187357664,
+        "vies_medio": -57681.99990809662,
+        "vies_mediano": -988250.0851296671,
+        "erro_absoluto_mediano": 2093821.523646913,
+        "erro_percentual_absoluto_mediano": 32.9237914819522,
+        "subestimados": 3,
+        "negativos": 0,
+        "soma_erro_absoluto": 17154257.52791574,
+        "soma_erro_quadratico": 89356359241233.06
+      }
+    ]
+  },
+  "encoder": {
+    "min_frequency": 5,
+    "handle_unknown": "infrequent_if_exist",
+    "categorias_aprendidas": 7120,
+    "categorias_infrequentes": 3996,
+    "registros_treino_infrequentes": 8336,
+    "categorias_frequentes": 3124,
+    "colunas_saida": 3125,
+    "bucket_infrequente": true,
+    "ineditos_mapeados_bucket": 532,
+    "teste_conhecidos_infrequentes": 2305,
+    "teste_infrequentes_ou_ineditos": 2837,
+    "metricas": [
+      {
+        "grupo": "Conhecido frequente",
+        "n": 9729,
+        "MAE": 250321.03908230044,
+        "RMSE": 728322.2360028495,
+        "R2": 0.7162193288637251,
+        "vies_medio": -4048.119102229994,
+        "vies_mediano": -9721.17516421969,
+        "erro_absoluto_mediano": 109382.42115041183,
+        "erro_percentual_absoluto_mediano": 21.710792141934096,
+        "subestimados": 5132,
+        "negativos": 227,
+        "soma_erro_absoluto": 2435373389.231701,
+        "soma_erro_quadratico": 5160779955829277.0
+      },
+      {
+        "grupo": "Conhecido infrequente",
+        "n": 2305,
+        "MAE": 432055.37724391156,
+        "RMSE": 1601799.3293190298,
+        "R2": 0.4243514042663832,
+        "vies_medio": -57544.417456194344,
+        "vies_mediano": 6423.712106707622,
+        "erro_absoluto_mediano": 194990.22694135644,
+        "erro_percentual_absoluto_mediano": 41.7130751556864,
+        "subestimados": 1135,
+        "negativos": 77,
+        "soma_erro_absoluto": 995887644.5472162,
+        "soma_erro_quadratico": 5914079315692890.0
+      },
+      {
+        "grupo": "Inédito",
+        "n": 532,
+        "MAE": 372711.8863239916,
+        "RMSE": 827454.013739176,
+        "R2": 0.38092183070449415,
+        "vies_medio": 98644.84996451462,
+        "vies_mediano": -3023.225327541819,
+        "erro_absoluto_mediano": 161540.0781361214,
+        "erro_percentual_absoluto_mediano": 39.966552559946706,
+        "subestimados": 268,
+        "negativos": 22,
+        "soma_erro_absoluto": 198282723.52436352,
+        "soma_erro_quadratico": 364249837061834.56
+      }
+    ],
+    "padrao_handle_unknown": "ignore",
+    "padrao_inedito_teste": 0,
+    "padrao_inedito_negativos": 0
+  },
+  "associacoes": {
+    "alto_valor_area": [
+      {
+        "grupo": ">200–500 m²",
+        "n": 66,
+        "MAE": 3099522.279073512,
+        "RMSE": 4026147.842035449,
+        "R2": -0.7291831199514629,
+        "vies_medio": -3041927.7844312782,
+        "vies_mediano": -2433541.3256227025,
+        "erro_absoluto_mediano": 2433541.3256227025,
+        "erro_percentual_absoluto_mediano": 38.63346693222171,
+        "subestimados": 64,
+        "negativos": 0,
+        "soma_erro_absoluto": 204568470.4188518,
+        "soma_erro_quadratico": 1069851185431162.4
+      },
+      {
+        "grupo": ">500 m²",
+        "n": 75,
+        "MAE": 5409084.380403582,
+        "RMSE": 9928397.382694138,
+        "R2": 0.15657412731305542,
+        "vies_medio": -4775647.313875462,
+        "vies_mediano": -2160939.525067104,
+        "erro_absoluto_mediano": 2235144.579742808,
+        "erro_percentual_absoluto_mediano": 28.272075567849242,
+        "subestimados": 65,
+        "negativos": 0,
+        "soma_erro_absoluto": 405681328.53026867,
+        "soma_erro_quadratico": 7392980594151586.0
+      }
+    ],
+    "alto_valor_padrao": [
+      {
+        "grupo": "22",
+        "n": 1,
+        "MAE": 2300046.3875938514,
+        "RMSE": 2300046.3875938514,
+        "R2": null,
+        "vies_medio": -2300046.3875938514,
+        "vies_mediano": -2300046.3875938514,
+        "erro_absoluto_mediano": 2300046.3875938514,
+        "erro_percentual_absoluto_mediano": 35.38532903990541,
+        "subestimados": 1,
+        "negativos": 0,
+        "soma_erro_absoluto": 2300046.3875938514,
+        "soma_erro_quadratico": 5290213385083.525
+      },
+      {
+        "grupo": "23",
+        "n": 18,
+        "MAE": 2582221.3877643584,
+        "RMSE": 3123636.5240911935,
+        "R2": -2.00997344287632,
+        "vies_medio": -2415405.2789067165,
+        "vies_mediano": -2366800.1562978188,
+        "erro_absoluto_mediano": 2366800.1562978188,
+        "erro_percentual_absoluto_mediano": 35.43505086702613,
+        "subestimados": 17,
+        "negativos": 0,
+        "soma_erro_absoluto": 46479984.97975845,
+        "soma_erro_quadratico": 175627892423457.22
+      },
+      {
+        "grupo": "24",
+        "n": 77,
+        "MAE": 3336427.8863974167,
+        "RMSE": 4576548.164801359,
+        "R2": -0.335096905812337,
+        "vies_medio": -3326057.1502032625,
+        "vies_mediano": -2223464.600260784,
+        "erro_absoluto_mediano": 2223464.600260784,
+        "erro_percentual_absoluto_mediano": 35.209737647094954,
+        "subestimados": 76,
+        "negativos": 0,
+        "soma_erro_absoluto": 256904947.2526011,
+        "soma_erro_quadratico": 1612749069065495.0
+      },
+      {
+        "grupo": "25",
+        "n": 45,
+        "MAE": 6768107.118425932,
+        "RMSE": 12173892.470463827,
+        "R2": 0.11212525272167728,
+        "vies_medio": -5712378.674212401,
+        "vies_mediano": -2849512.7829592805,
+        "erro_absoluto_mediano": 3470970.49849844,
+        "erro_percentual_absoluto_mediano": 28.358017117124863,
+        "subestimados": 35,
+        "negativos": 0,
+        "soma_erro_absoluto": 304564820.32916695,
+        "soma_erro_quadratico": 6669164604708714.0
+      }
+    ],
+    "alto_valor_acc": [
+      {
+        "grupo": "ACC até 1980",
+        "n": 20,
+        "MAE": 2995365.84995802,
+        "RMSE": 3684331.9811869184,
+        "R2": -1.2504830301425547,
+        "vies_medio": -2995365.84995802,
+        "vies_mediano": -2203369.8614906343,
+        "erro_absoluto_mediano": 2203369.8614906343,
+        "erro_percentual_absoluto_mediano": 34.81810006432461,
+        "subestimados": 20,
+        "negativos": 0,
+        "soma_erro_absoluto": 59907316.999160394,
+        "soma_erro_quadratico": 271486042951934.47
+      },
+      {
+        "grupo": "ACC 1981–2000",
+        "n": 20,
+        "MAE": 2430469.731059822,
+        "RMSE": 3469736.2218481023,
+        "R2": -0.3340753541985757,
+        "vies_medio": -1894490.9928122354,
+        "vies_mediano": -1132915.4638783233,
+        "erro_absoluto_mediano": 1629450.7192129288,
+        "erro_percentual_absoluto_mediano": 25.17952295823273,
+        "subestimados": 14,
+        "negativos": 0,
+        "soma_erro_absoluto": 48609394.621196434,
+        "soma_erro_quadratico": 240781388984094.84
+      },
+      {
+        "grupo": "ACC 2001–2020",
+        "n": 47,
+        "MAE": 5481155.560100223,
+        "RMSE": 11275257.89213373,
+        "R2": 0.1773294538553446,
+        "vies_medio": -4760088.469651859,
+        "vies_mediano": -2183567.3180186143,
+        "erro_absoluto_mediano": 2300046.3875938514,
+        "erro_percentual_absoluto_mediano": 30.87267511670899,
+        "subestimados": 43,
+        "negativos": 0,
+        "soma_erro_absoluto": 257614311.3247105,
+        "soma_erro_quadratico": 5975177705103826.0
+      },
+      {
+        "grupo": "ACC após 2020",
+        "n": 54,
+        "MAE": 4520718.074149132,
+        "RMSE": 6048242.2340019345,
+        "R2": 0.1506402446294115,
+        "vies_medio": -4396657.173779289,
+        "vies_mediano": -3043197.9878715193,
+        "erro_absoluto_mediano": 3043197.9878715193,
+        "erro_percentual_absoluto_mediano": 38.966213743272945,
+        "subestimados": 52,
+        "negativos": 0,
+        "soma_erro_absoluto": 244118776.00405312,
+        "soma_erro_quadratico": 1975386642542894.2
+      }
+    ],
+    "alto_valor_encoder": [
+      {
+        "grupo": "Conhecido frequente",
+        "n": 98,
+        "MAE": 3668113.1846751412,
+        "RMSE": 5834681.537578558,
+        "R2": 0.38346603880918995,
+        "vies_medio": -3344587.7313384935,
+        "vies_mediano": -2209437.161582426,
+        "erro_absoluto_mediano": 2229304.590001796,
+        "erro_percentual_absoluto_mediano": 29.57205675796542,
+        "subestimados": 90,
+        "negativos": 0,
+        "soma_erro_absoluto": 359475092.09816384,
+        "soma_erro_quadratico": 3336263847206088.5
+      },
+      {
+        "grupo": "Conhecido infrequente",
+        "n": 37,
+        "MAE": 6314066.197920022,
+        "RMSE": 11667941.263478512,
+        "R2": -0.05195486499619162,
+        "vies_medio": -6238516.017364947,
+        "vies_mediano": -3010104.4946243265,
+        "erro_absoluto_mediano": 3010104.4946243265,
+        "erro_percentual_absoluto_mediano": 44.61762877042882,
+        "subestimados": 36,
+        "negativos": 0,
+        "soma_erro_absoluto": 233620449.32304078,
+        "soma_erro_quadratico": 5037211573135428.0
+      },
+      {
+        "grupo": "Inédito",
+        "n": 6,
+        "MAE": 2859042.9213192896,
+        "RMSE": 3859109.552760262,
+        "R2": -4.913349187357664,
+        "vies_medio": -57681.99990809662,
+        "vies_mediano": -988250.0851296671,
+        "erro_absoluto_mediano": 2093821.523646913,
+        "erro_percentual_absoluto_mediano": 32.9237914819522,
+        "subestimados": 3,
+        "negativos": 0,
+        "soma_erro_absoluto": 17154257.52791574,
+        "soma_erro_quadratico": 89356359241233.06
+      }
+    ],
+    "alto_valor_spearman_area_erro": -0.048340315152276755,
+    "alto_valor_spearman_area_erro_abs": 0.13774089356678496,
+    "negativos_cobertura": [
+      {
+        "grupo": "Conhecido",
+        "n": 304,
+        "MAE": 459520.3801647665,
+        "RMSE": 553148.7208994367,
+        "R2": -10.90529950013905,
+        "vies_medio": -459520.3801647665,
+        "vies_mediano": -367973.2450892828,
+        "erro_absoluto_mediano": 367973.2450892828,
+        "erro_percentual_absoluto_mediano": 137.2205167393734,
+        "subestimados": 304,
+        "negativos": 304,
+        "soma_erro_absoluto": 139694195.570089,
+        "soma_erro_quadratico": 93015946259535.62
+      },
+      {
+        "grupo": "Inédito",
+        "n": 22,
+        "MAE": 362635.78764184064,
+        "RMSE": 407868.33423535986,
+        "R2": -2.8010572607232374,
+        "vies_medio": -362635.78764184064,
+        "vies_mediano": -330416.97203039756,
+        "erro_absoluto_mediano": 330416.97203039756,
+        "erro_percentual_absoluto_mediano": 134.60035203575262,
+        "subestimados": 22,
+        "negativos": 22,
+        "soma_erro_absoluto": 7977987.328120494,
+        "soma_erro_quadratico": 3659844717582.399
+      }
+    ],
+    "negativos_encoder": [
+      {
+        "grupo": "Conhecido frequente",
+        "n": 227,
+        "MAE": 489831.6522308594,
+        "RMSE": 598583.2901831835,
+        "R2": -11.270274906761962,
+        "vies_medio": -489831.6522308594,
+        "vies_mediano": -376205.48932101135,
+        "erro_absoluto_mediano": 376205.48932101135,
+        "erro_percentual_absoluto_mediano": 136.60323440262673,
+        "subestimados": 227,
+        "negativos": 227,
+        "soma_erro_absoluto": 111191785.05640508,
+        "soma_erro_quadratico": 81334543850041.22
+      },
+      {
+        "grupo": "Conhecido infrequente",
+        "n": 77,
+        "MAE": 370161.17550238856,
+        "RMSE": 389495.21794064244,
+        "R2": -9.45125530257046,
+        "vies_medio": -370161.17550238856,
+        "vies_mediano": -352282.1284022685,
+        "erro_absoluto_mediano": 352282.1284022685,
+        "erro_percentual_absoluto_mediano": 141.80575721525466,
+        "subestimados": 77,
+        "negativos": 77,
+        "soma_erro_absoluto": 28502410.51368392,
+        "soma_erro_quadratico": 11681402409494.398
+      },
+      {
+        "grupo": "Inédito",
+        "n": 22,
+        "MAE": 362635.78764184064,
+        "RMSE": 407868.33423535986,
+        "R2": -2.8010572607232374,
+        "vies_medio": -362635.78764184064,
+        "vies_mediano": -330416.97203039756,
+        "erro_absoluto_mediano": 330416.97203039756,
+        "erro_percentual_absoluto_mediano": 134.60035203575262,
+        "subestimados": 22,
+        "negativos": 22,
+        "soma_erro_absoluto": 7977987.328120494,
+        "soma_erro_quadratico": 3659844717582.399
+      }
+    ],
+    "negativos_area": [
+      {
+        "grupo": "Até 50 m²",
+        "n": 175,
+        "MAE": 384732.4090006517,
+        "RMSE": 458493.144068525,
+        "R2": -20.478592903493112,
+        "vies_medio": -384732.4090006517,
+        "vies_mediano": -329723.0093683206,
+        "erro_absoluto_mediano": 329723.0093683206,
+        "erro_percentual_absoluto_mediano": 151.68755708236282,
+        "subestimados": 175,
+        "negativos": 175,
+        "soma_erro_absoluto": 67328171.57511404,
+        "soma_erro_quadratico": 36787793552622.21
+      },
+      {
+        "grupo": ">50–100 m²",
+        "n": 122,
+        "MAE": 470567.12257722364,
+        "RMSE": 564765.7688069547,
+        "R2": -17.750071237816663,
+        "vies_medio": -470567.12257722364,
+        "vies_mediano": -373010.8882408445,
+        "erro_absoluto_mediano": 373010.8882408445,
+        "erro_percentual_absoluto_mediano": 126.88822451765614,
+        "subestimados": 122,
+        "negativos": 122,
+        "soma_erro_absoluto": 57409188.95442128,
+        "soma_erro_quadratico": 38913165581165.5
+      },
+      {
+        "grupo": ">100–200 m²",
+        "n": 26,
+        "MAE": 741537.5430529823,
+        "RMSE": 780910.361010934,
+        "R2": -26.401808591783833,
+        "vies_medio": -741537.5430529823,
+        "vies_mediano": -678041.9365035726,
+        "erro_absoluto_mediano": 678041.9365035726,
+        "erro_percentual_absoluto_mediano": 149.05085621197958,
+        "subestimados": 26,
+        "negativos": 26,
+        "soma_erro_absoluto": 19279976.11937754,
+        "soma_erro_quadratico": 15855345790289.91
+      },
+      {
+        "grupo": ">200–500 m²",
+        "n": 3,
+        "MAE": 1218282.0830988742,
+        "RMSE": 1306328.9597239543,
+        "R2": -6.9585750643181745,
+        "vies_medio": -1218282.0830988742,
+        "vies_mediano": -1246820.0336737104,
+        "erro_absoluto_mediano": 1246820.0336737104,
+        "erro_percentual_absoluto_mediano": 109.25856616461216,
+        "subestimados": 3,
+        "negativos": 3,
+        "soma_erro_absoluto": 3654846.2492966224,
+        "soma_erro_quadratico": 5119486053040.405
+      }
+    ],
+    "teste_area": [
+      {
+        "grupo": "Até 50 m²",
+        "n": 1710,
+        "MAE": 120801.62814063423,
+        "RMSE": 189150.8706127105,
+        "R2": -1.7957613387805993,
+        "vies_medio": -83243.95208762096,
+        "vies_mediano": -59904.387113608886,
+        "erro_absoluto_mediano": 80365.21224827989,
+        "erro_percentual_absoluto_mediano": 31.74696346965468,
+        "subestimados": 1227,
+        "negativos": 175,
+        "soma_erro_absoluto": 206570784.12048453,
+        "soma_erro_quadratico": 61180468669564.266
+      },
+      {
+        "grupo": ">50–100 m²",
+        "n": 4550,
+        "MAE": 127800.89342801391,
+        "RMSE": 203948.4279015229,
+        "R2": -0.5667293877721964,
+        "vies_medio": -33176.31475923103,
+        "vies_mediano": -22007.422224652255,
+        "erro_absoluto_mediano": 85337.81080681909,
+        "erro_percentual_absoluto_mediano": 25.687239739500527,
+        "subestimados": 2637,
+        "negativos": 122,
+        "soma_erro_absoluto": 581494065.0974633,
+        "soma_erro_quadratico": 189257073657937.2
+      },
+      {
+        "grupo": ">100–200 m²",
+        "n": 4472,
+        "MAE": 217894.36136977596,
+        "RMSE": 344694.6173073296,
+        "R2": 0.2481178699359743,
+        "vies_medio": 31322.94953121885,
+        "vies_mediano": 35845.318790104706,
+        "erro_absoluto_mediano": 147921.09277476597,
+        "erro_percentual_absoluto_mediano": 21.62013999171467,
+        "subestimados": 1895,
+        "negativos": 26,
+        "soma_erro_absoluto": 974423584.0456381,
+        "soma_erro_quadratico": 531337903785290.8
+      },
+      {
+        "grupo": ">200–500 m²",
+        "n": 1670,
+        "MAE": 745356.22626561,
+        "RMSE": 1213946.0404981992,
+        "R2": 0.4337699726584955,
+        "vies_medio": 106228.37692660761,
+        "vies_mediano": 103803.53326779802,
+        "erro_absoluto_mediano": 480814.72229785216,
+        "erro_percentual_absoluto_mediano": 27.31815274195062,
+        "subestimados": 706,
+        "negativos": 3,
+        "soma_erro_absoluto": 1244744897.8635685,
+        "soma_erro_quadratico": 2461020532032897.0
+      },
+      {
+        "grupo": ">500 m²",
+        "n": 164,
+        "MAE": 3794575.7693666234,
+        "RMSE": 7069477.992612926,
+        "R2": 0.3826949586718603,
+        "vies_medio": -876360.9899250861,
+        "vies_mediano": 790589.8444052944,
+        "erro_absoluto_mediano": 2158642.277811246,
+        "erro_percentual_absoluto_mediano": 43.68443266902536,
+        "subestimados": 70,
+        "negativos": 0,
+        "soma_erro_absoluto": 622310426.1761262,
+        "soma_erro_quadratico": 8196313130438312.0
+      }
+    ],
+    "negativos_padrao": [
+      {
+        "grupo": "20",
+        "n": 1,
+        "MAE": 172951.90083095804,
+        "RMSE": 172951.90083095804,
+        "R2": null,
+        "vies_medio": -172951.90083095804,
+        "vies_mediano": -172951.90083095804,
+        "erro_absoluto_mediano": 172951.90083095804,
+        "erro_percentual_absoluto_mediano": 128.112519134043,
+        "subestimados": 1,
+        "negativos": 1,
+        "soma_erro_absoluto": 172951.90083095804,
+        "soma_erro_quadratico": 29912360001.041542
+      },
+      {
+        "grupo": "21",
+        "n": 59,
+        "MAE": 342686.67074500007,
+        "RMSE": 390729.6384312071,
+        "R2": -7.163177079049937,
+        "vies_medio": -342686.67074500007,
+        "vies_mediano": -295626.3697298437,
+        "erro_absoluto_mediano": 295626.3697298437,
+        "erro_percentual_absoluto_mediano": 142.79660153244623,
+        "subestimados": 59,
+        "negativos": 59,
+        "soma_erro_absoluto": 20218513.573955003,
+        "soma_erro_quadratico": 9007509370566.328
+      },
+      {
+        "grupo": "22",
+        "n": 251,
+        "MAE": 464915.53421582235,
+        "RMSE": 557189.1576902978,
+        "R2": -19.292364008685993,
+        "vies_medio": -464915.53421582235,
+        "vies_mediano": -379141.53288202244,
+        "erro_absoluto_mediano": 379141.53288202244,
+        "erro_percentual_absoluto_mediano": 137.96024306875586,
+        "subestimados": 251,
+        "negativos": 251,
+        "soma_erro_absoluto": 116693799.08817141,
+        "soma_erro_quadratico": 77925399119353.5
+      },
+      {
+        "grupo": "23",
+        "n": 15,
+        "MAE": 705794.5556834752,
+        "RMSE": 804693.321590992,
+        "R2": -2.7122857171616572,
+        "vies_medio": -705794.5556834752,
+        "vies_mediano": -537530.8455982653,
+        "erro_absoluto_mediano": 537530.8455982653,
+        "erro_percentual_absoluto_mediano": 119.49414987184295,
+        "subestimados": 15,
+        "negativos": 15,
+        "soma_erro_absoluto": 10586918.335252129,
+        "soma_erro_quadratico": 9712970127197.154
+      }
+    ],
+    "teste_padrao": [
+      {
+        "grupo": "11",
+        "n": 1,
+        "MAE": 11584.098602467566,
+        "RMSE": 11584.098602467566,
+        "R2": null,
+        "vies_medio": 11584.098602467566,
+        "vies_mediano": 11584.098602467566,
+        "erro_absoluto_mediano": 11584.098602467566,
+        "erro_percentual_absoluto_mediano": 5.387952838357007,
+        "subestimados": 0,
+        "negativos": 0,
+        "soma_erro_absoluto": 11584.098602467566,
+        "soma_erro_quadratico": 134191340.431691
+      },
+      {
+        "grupo": "12",
+        "n": 2,
+        "MAE": 100583.39324230229,
+        "RMSE": 118221.54882250703,
+        "R2": -247.46817077319847,
+        "vies_medio": -62123.39019931859,
+        "vies_mediano": -62123.39019931859,
+        "erro_absoluto_mediano": 100583.39324230229,
+        "erro_percentual_absoluto_mediano": 32.23647406932599,
+        "subestimados": 1,
+        "negativos": 0,
+        "soma_erro_absoluto": 201166.78648460458,
+        "soma_erro_quadratico": 27952669211.98483
+      },
+      {
+        "grupo": "14",
+        "n": 1,
+        "MAE": 217818.03015829576,
+        "RMSE": 217818.03015829576,
+        "R2": null,
+        "vies_medio": -217818.03015829576,
+        "vies_mediano": -217818.03015829576,
+        "erro_absoluto_mediano": 217818.03015829576,
+        "erro_percentual_absoluto_mediano": 8.963704944785835,
+        "subestimados": 1,
+        "negativos": 0,
+        "soma_erro_absoluto": 217818.03015829576,
+        "soma_erro_quadratico": 47444694262.040245
+      },
+      {
+        "grupo": "20",
+        "n": 98,
+        "MAE": 81375.73002009561,
+        "RMSE": 112588.74777963854,
+        "R2": -1.6664385422281658,
+        "vies_medio": -5630.0094198334045,
+        "vies_mediano": -26369.199698568962,
+        "erro_absoluto_mediano": 54928.16025869483,
+        "erro_percentual_absoluto_mediano": 37.74654704068402,
+        "subestimados": 58,
+        "negativos": 1,
+        "soma_erro_absoluto": 7974821.541969369,
+        "soma_erro_quadratico": 1242270160405.5322
+      },
+      {
+        "grupo": "21",
+        "n": 836,
+        "MAE": 131872.05591013993,
+        "RMSE": 198099.9368746653,
+        "R2": -2.311444487989956,
+        "vies_medio": -109.66666599529134,
+        "vies_mediano": -3355.904847194557,
+        "erro_absoluto_mediano": 83288.73432423291,
+        "erro_percentual_absoluto_mediano": 34.65985238576991,
+        "subestimados": 433,
+        "negativos": 59,
+        "soma_erro_absoluto": 110245038.74087697,
+        "soma_erro_quadratico": 32807637051427.96
+      },
+      {
+        "grupo": "22",
+        "n": 9112,
+        "MAE": 164461.62221565624,
+        "RMSE": 268270.4188289238,
+        "R2": 0.41055365200658733,
+        "vies_medio": -6649.86581212584,
+        "vies_mediano": -9891.36687975959,
+        "erro_absoluto_mediano": 103969.17065909645,
+        "erro_percentual_absoluto_mediano": 24.22177310954655,
+        "subestimados": 4806,
+        "negativos": 251,
+        "soma_erro_absoluto": 1498574301.6290598,
+        "soma_erro_quadratico": 655781688541104.0
+      },
+      {
+        "grupo": "23",
+        "n": 2020,
+        "MAE": 472105.7749278561,
+        "RMSE": 750350.5096846768,
+        "R2": 0.439712301431303,
+        "vies_medio": 17339.124530271496,
+        "vies_mediano": -26938.519534080755,
+        "erro_absoluto_mediano": 289513.24470597366,
+        "erro_percentual_absoluto_mediano": 22.747911149406903,
+        "subestimados": 1059,
+        "negativos": 15,
+        "soma_erro_absoluto": 953653665.3542694,
+        "soma_erro_quadratico": 1137312292515789.5
+      },
+      {
+        "grupo": "24",
+        "n": 418,
+        "MAE": 1546720.3500262697,
+        "RMSE": 2419802.413900489,
+        "R2": 0.43081887916733475,
+        "vies_medio": 135126.98984128376,
+        "vies_mediano": 422823.9621308071,
+        "erro_absoluto_mediano": 1046199.5525266924,
+        "erro_percentual_absoluto_mediano": 39.235890226853755,
+        "subestimados": 142,
+        "negativos": 0,
+        "soma_erro_absoluto": 646529106.3109807,
+        "soma_erro_quadratico": 2447575475929188.5
+      },
+      {
+        "grupo": "25",
+        "n": 78,
+        "MAE": 5283798.138601012,
+        "RMSE": 9583850.072689239,
+        "R2": 0.3267774286778967,
+        "vies_medio": -1916482.1263826406,
+        "vies_mediano": 739025.2060934908,
+        "erro_absoluto_mediano": 3460081.8588880235,
+        "erro_percentual_absoluto_mediano": 43.286191821648174,
+        "subestimados": 35,
+        "negativos": 0,
+        "soma_erro_absoluto": 412136254.81087893,
+        "soma_erro_quadratico": 7164314212831272.0
+      }
+    ],
+    "negativos_acc": [
+      {
+        "grupo": "ACC até 1980",
+        "n": 197,
+        "MAE": 391811.3346329251,
+        "RMSE": 446519.02563105297,
+        "R2": -11.338753984396812,
+        "vies_medio": -391811.3346329251,
+        "vies_mediano": -346016.53627446,
+        "erro_absoluto_mediano": 346016.53627446,
+        "erro_percentual_absoluto_mediano": 137.00820963784463,
+        "subestimados": 197,
+        "negativos": 197,
+        "soma_erro_absoluto": 77186832.92268625,
+        "soma_erro_quadratico": 39277710329349.47
+      },
+      {
+        "grupo": "ACC 1981–2000",
+        "n": 35,
+        "MAE": 487102.5844798649,
+        "RMSE": 542904.129695399,
+        "R2": -6.822264651962127,
+        "vies_medio": -487102.5844798649,
+        "vies_mediano": -394607.2218210804,
+        "erro_absoluto_mediano": 394607.2218210804,
+        "erro_percentual_absoluto_mediano": 137.43282384090216,
+        "subestimados": 35,
+        "negativos": 35,
+        "soma_erro_absoluto": 17048590.45679527,
+        "soma_erro_quadratico": 10316071291411.15
+      },
+      {
+        "grupo": "ACC 2001–2020",
+        "n": 42,
+        "MAE": 530086.4344396922,
+        "RMSE": 645737.3188205885,
+        "R2": -4.402630785406343,
+        "vies_medio": -530086.4344396922,
+        "vies_mediano": -404515.11836000974,
+        "erro_absoluto_mediano": 404515.11836000974,
+        "erro_percentual_absoluto_mediano": 120.47028085107836,
+        "subestimados": 42,
+        "negativos": 42,
+        "soma_erro_absoluto": 22263630.246467073,
+        "soma_erro_quadratico": 17513020766539.3
+      },
+      {
+        "grupo": "ACC após 2020",
+        "n": 52,
+        "MAE": 599483.2552357867,
+        "RMSE": 754078.5078213279,
+        "R2": -40.56440991817382,
+        "vies_medio": -599483.2552357867,
+        "vies_mediano": -399085.92475498316,
+        "erro_absoluto_mediano": 399085.92475498316,
+        "erro_percentual_absoluto_mediano": 162.14361824297904,
+        "subestimados": 52,
+        "negativos": 52,
+        "soma_erro_absoluto": 31173129.272260904,
+        "soma_erro_quadratico": 29568988589818.1
+      }
+    ],
+    "teste_acc": [
+      {
+        "grupo": "ACC até 1980",
+        "n": 2043,
+        "MAE": 336643.9713280166,
+        "RMSE": 643270.6987617284,
+        "R2": 0.6094690757521316,
+        "vies_medio": -132681.41815257244,
+        "vies_mediano": -112026.69653037109,
+        "erro_absoluto_mediano": 202542.23226252245,
+        "erro_percentual_absoluto_mediano": 36.58394145588225,
+        "subestimados": 1412,
+        "negativos": 197,
+        "soma_erro_absoluto": 687763633.4231379,
+        "soma_erro_quadratico": 845387663021876.8
+      },
+      {
+        "grupo": "ACC 1981–2000",
+        "n": 2679,
+        "MAE": 334787.98209640273,
+        "RMSE": 735597.4592407407,
+        "R2": 0.33309223420857437,
+        "vies_medio": 168416.51451209074,
+        "vies_mediano": 41523.42089473724,
+        "erro_absoluto_mediano": 143658.13563775737,
+        "erro_percentual_absoluto_mediano": 32.036689311369194,
+        "subestimados": 1081,
+        "negativos": 35,
+        "soma_erro_absoluto": 896897004.036263,
+        "soma_erro_quadratico": 1449616603448999.5
+      },
+      {
+        "grupo": "ACC 2001–2020",
+        "n": 4656,
+        "MAE": 288725.1130616283,
+        "RMSE": 1221938.462699562,
+        "R2": 0.5568783610497192,
+        "vies_medio": 5369.201590557235,
+        "vies_mediano": 4390.769090438378,
+        "erro_absoluto_mediano": 122382.90220393962,
+        "erro_percentual_absoluto_mediano": 21.80794296230069,
+        "subestimados": 2275,
+        "negativos": 42,
+        "soma_erro_absoluto": 1344304126.4149413,
+        "soma_erro_quadratico": 6952030072443992.0
+      },
+      {
+        "grupo": "ACC após 2020",
+        "n": 3188,
+        "MAE": 219755.0167593911,
+        "RMSE": 829217.6267685358,
+        "R2": 0.7558151566325368,
+        "vies_medio": -101839.2975215878,
+        "vies_mediano": -16739.556805219967,
+        "erro_absoluto_mediano": 85807.73721742537,
+        "erro_percentual_absoluto_mediano": 21.017413520209118,
+        "subestimados": 1767,
+        "negativos": 52,
+        "soma_erro_absoluto": 700578993.4289387,
+        "soma_erro_quadratico": 2192074769669132.8
+      }
+    ],
+    "negativos_ceps_distintos": 213,
+    "negativos_ceps_top": [
+      {
+        "cep": "05021000",
+        "n_negativos": 9,
+        "n_teste": 15
+      },
+      {
+        "cep": "03336010",
+        "n_negativos": 9,
+        "n_teste": 10
+      },
+      {
+        "cep": "08260030",
+        "n_negativos": 6,
+        "n_teste": 13
+      },
+      {
+        "cep": "01217010",
+        "n_negativos": 5,
+        "n_teste": 13
+      },
+      {
+        "cep": "01233001",
+        "n_negativos": 5,
+        "n_teste": 14
+      },
+      {
+        "cep": "05716090",
+        "n_negativos": 4,
+        "n_teste": 5
+      },
+      {
+        "cep": "03210001",
+        "n_negativos": 4,
+        "n_teste": 13
+      },
+      {
+        "cep": "02611001",
+        "n_negativos": 4,
+        "n_teste": 9
+      },
+      {
+        "cep": "04194260",
+        "n_negativos": 4,
+        "n_teste": 19
+      },
+      {
+        "cep": "01232000",
+        "n_negativos": 4,
+        "n_teste": 7
+      }
+    ]
+  },
+  "decomposicao": {
+    "intercepto": 980455.9321678691,
+    "diferenca_maxima_recomposicao": 0.0,
+    "medias_negativos": {
+      "numericas": -663762.9106891507,
+      "cep": -278116.7164838593,
+      "padrao": -212519.18317955083
+    },
+    "medias_nao_negativos": {
+      "numericas": 40768.4869782668,
+      "cep": -10194.499389774975,
+      "padrao": -215790.8120980923
+    },
+    "numericas_negativos": {
+      "area": -573568.2212588333,
+      "acc": -90194.68943031739
+    },
+    "numericas_nao_negativos": {
+      "area": 36744.156329611345,
+      "acc": 4024.3306486554516
+    }
+  },
+  "participacao_erros_alto_valor": {
+    "absoluto_pct": 16.81340244820552,
+    "quadratico_pct": 73.98156359250189
+  },
+  "validacao": {
+    "caminhos": {
+      "pipeline": "U:\\smartprice-ai\\models\\baseline_v1_recuperado.joblib",
+      "partitions": "U:\\smartprice-ai\\data\\processed\\baseline_v1_particoes.joblib",
+      "predictions": "U:\\smartprice-ai\\data\\processed\\baseline_v1_previsoes_teste.csv",
+      "manifest": "U:\\smartprice-ai\\models\\baseline_v1_manifesto.json"
+    },
+    "hashes_antes": {
+      "models/baseline_v1_recuperado.joblib": "6cd765e9f90c11cb6cc2d4642325af872523d61141a9f511c497c9a58055dcb6",
+      "data/processed/baseline_v1_particoes.joblib": "23b11bf70d7646dd90307a4caf347804f873c0f7083be54f5c6d0bdc3cc4e345",
+      "data/processed/baseline_v1_previsoes_teste.csv": "ad8a20d4e4fe10f567fb943526ed9b95a1b0e2d4ca025a6d18a25be98e0d5be2",
+      "models/baseline_v1_manifesto.json": "82bce1259ffbea9dc78382ab10fdaad1ff16db47e8dc03b8669a09fe856c1109"
+    },
+    "assinaturas_particoes": "6/6, conteúdo e índice ordenado",
+    "previsoes": "iguais bit a bit ao CSV",
+    "parametros": "iguais ao manifesto",
+    "limite_historico": "Reconstruida pelo codigo e fonte originais; contagens e datas conferidas com saidas historicas. Nao havia listas/hashes historicos das particoes para comparacao independente registro a registro.",
+    "versoes": {
+      "pandas": "3.0.3",
+      "numpy": "2.4.1",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.1",
+      "joblib": "1.5.3",
+      "matplotlib": "3.10.9"
+    },
+    "hashes_depois": {
+      "models/baseline_v1_recuperado.joblib": "6cd765e9f90c11cb6cc2d4642325af872523d61141a9f511c497c9a58055dcb6",
+      "data/processed/baseline_v1_particoes.joblib": "23b11bf70d7646dd90307a4caf347804f873c0f7083be54f5c6d0bdc3cc4e345",
+      "data/processed/baseline_v1_previsoes_teste.csv": "ad8a20d4e4fe10f567fb943526ed9b95a1b0e2d4ca025a6d18a25be98e0d5be2",
+      "models/baseline_v1_manifesto.json": "82bce1259ffbea9dc78382ab10fdaad1ff16db47e8dc03b8669a09fe856c1109"
+    },
+    "hash_notebook_antes_depois": "6d91d757784178493ed3c21f9397b58fe85983409978e9a3baf06aaa7b3eafcc",
+    "pipeline_em_memoria_intacto": true
+  }
+}

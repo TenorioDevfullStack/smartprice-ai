@@ -19,3 +19,21 @@ __pycache__/
 # Modelos gerados
 models/*.pkl
 models/*.joblib
+
+# Artefatos locais mínimos para auditoria do Baseline V1
+data/processed/baseline_v1_particoes.joblib
+data/processed/baseline_v1_previsoes_teste.csv
+
+# Artefatos pequenos necessários à reprodução e ao deploy
+!models/baseline_v1_recuperado.joblib
+!models/smartprice_model.joblib
+!data/processed/baseline_v1_particoes.joblib
+!data/processed/baseline_v1_previsoes_teste.csv
+
+# Ambientes e ferramentas locais de verificação
+.venv-cloud/
+.pytest_cache/
+.tools/
+.playwright/
+.env
+.env.*
