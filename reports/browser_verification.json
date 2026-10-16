@@ -1,0 +1,24 @@
+{
+  "browser": "Chrome / Playwright",
+  "overview_render_seconds": 13.03,
+  "screenshots": 4,
+  "additional_mobile_screenshot": true,
+  "desktop_viewport": [
+    1440,
+    1100
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "tested": [
+    "startup",
+    "main pages",
+    "CEP filter: 200 rows",
+    "valid inference",
+    "invalid CEP",
+    "charts",
+    "basic mobile horizontal overflow"
+  ],
+  "page_errors": []
+}
