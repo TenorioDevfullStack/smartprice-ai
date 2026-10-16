@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-16",
+  "python": "3.13.5",
+  "clean_environment": ".venv-cloud, created from requirements.txt",
+  "clean_pytest": {"passed": 33, "failed": 0, "skipped": 0},
+  "pip_check": "No broken requirements found",
+  "training": "Repeated with identical selected model and holdout metrics in the clean environment",
+  "selected_model": "hist_log",
+  "raw_verification": "All V3 indices/features/prices/dates match recovered partitions; see raw_verification.json",
+  "preservation": "15 pre-existing files preserved byte for byte; README, requirements.txt and .gitignore intentionally updated",
+  "notebook_02": {"code_cells_executed": 9, "assertions": "passed"},
+  "dashboard": "Started with clean-environment Python; see browser_verification.json",
+  "diff_check": "passed before commits",
+  "deployment": "Prepared for Streamlit Community Cloud; public deployment not executed",
+  "platform_limit": "Clean environment verified locally on Windows, not the Cloud Linux infrastructure"
+}
