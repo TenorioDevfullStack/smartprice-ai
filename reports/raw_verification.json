@@ -1,0 +1,12 @@
+{
+  "raw_2025_sheets": 230525,
+  "apartments": 79108,
+  "v1_positive_whole_sales": 64951,
+  "v2_min_price": 63881,
+  "transaction_year_2025": 63212,
+  "exact_duplicates_removed": 48,
+  "v3": 63164,
+  "all_rows_match_recovered_partitions": true,
+  "raw_sha256": "2735033e018d44c4280b22d24a69f774221fd0e441534dd4d77810f80b7a31b5",
+  "duplicate_scope": "Todas as colunas V2, incluindo Mes_Arquivo; não deduplica operações semelhantes entre meses."
+}

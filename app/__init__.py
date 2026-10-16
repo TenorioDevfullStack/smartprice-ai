@@ -1,0 +1,1 @@
+"""Aplicação pública de demonstração."""

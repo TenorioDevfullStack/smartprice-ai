@@ -1,0 +1,58 @@
+{
+  "rows": 63164,
+  "start": "2025-01-02",
+  "end": "2025-12-31",
+  "dtypes": {
+    "Área Construída (m2)": "int64",
+    "CEP_8": "string",
+    "Padrão (IPTU)": "string",
+    "ACC (IPTU)": "float64",
+    "Valor de Transação (declarado pelo contribuinte)": "float64",
+    "Data de Transação": "datetime64[us]"
+  },
+  "missing": {
+    "Área Construída (m2)": 0,
+    "CEP_8": 0,
+    "Padrão (IPTU)": 0,
+    "ACC (IPTU)": 0,
+    "Valor de Transação (declarado pelo contribuinte)": 0,
+    "Data de Transação": 0
+  },
+  "duplicate_technical_ids": 0,
+  "duplicate_reduced_rows": 750,
+  "duplicate_policy": "Não remover: projeção reduzida não identifica duplicatas de transações. V3 removeu cópias exatas usando todas as colunas originais.",
+  "area_kind": "Área Construída (m2) cadastral; não equivale necessariamente à área útil.",
+  "area": {
+    "count": 63164.0,
+    "mean": 126.89875562029003,
+    "std": 98.0234898151958,
+    "min": 6.0,
+    "25%": 71.0,
+    "50%": 102.0,
+    "75%": 148.0,
+    "max": 2023.0
+  },
+  "price": {
+    "count": 63164.0,
+    "mean": 756163.2874145083,
+    "std": 1354584.9787531653,
+    "min": 10000.0,
+    "25%": 290680.86250000005,
+    "50%": 448000.0,
+    "75%": 795007.125,
+    "max": 70000000.0
+  },
+  "price_m2": {
+    "count": 63164.0,
+    "mean": 5457.724522381634,
+    "std": 3019.5840773298587,
+    "min": 25.763358778625953,
+    "25%": 3567.5675675675675,
+    "50%": 4900.900931857892,
+    "75%": 6645.569620253164,
+    "max": 56864.33793663688
+  },
+  "unique_ceps": 7533,
+  "location": "CEP cadastral; sem bairro inferido artificialmente, endereço ou SQL.",
+  "sha256": "309b378bacfecba327906f800dc620bda30724c2c2c47dc0d83132d8f7ffae16"
+}

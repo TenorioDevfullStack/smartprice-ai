@@ -1,0 +1,2439 @@
+{
+  "selected": "hist_log",
+  "criterion": "MAE ponderado pelo número de observações nas três janelas temporais; desempate pela ordem fixa dos candidatos.",
+  "ranking": [
+    {
+      "model": "hist_log",
+      "metrics": {
+        "n": 25151,
+        "MAE": 193496.8896137674,
+        "RMSE": 672836.0174528282,
+        "R2": 0.7317716795176185,
+        "MedAE": 78279.3496510848,
+        "MdAPE_pct": 17.5489295760011,
+        "mean_error": -49500.39768380532,
+        "underestimate_pct": 56.32778020754642,
+        "overestimate_pct": 43.67221979245358,
+        "negative_predictions": 0
+      },
+      "fold_mae_std": 4266.148103091122,
+      "fold_mae": [
+        188266.91092567105,
+        197353.7698742191,
+        197279.32621393912
+      ]
+    },
+    {
+      "model": "forest",
+      "metrics": {
+        "n": 25151,
+        "MAE": 194383.28225180585,
+        "RMSE": 625031.0185176651,
+        "R2": 0.7685328797253013,
+        "MedAE": 83112.17244509712,
+        "MdAPE_pct": 17.751819750382676,
+        "mean_error": -10446.588031791565,
+        "underestimate_pct": 48.40364200230607,
+        "overestimate_pct": 51.59635799769393,
+        "negative_predictions": 0
+      },
+      "fold_mae_std": 1521.2863330470525,
+      "fold_mae": [
+        193407.04557012155,
+        196902.91956359395,
+        194037.59577243813
+      ]
+    },
+    {
+      "model": "forest_log",
+      "metrics": {
+        "n": 25151,
+        "MAE": 195700.41409814262,
+        "RMSE": 665532.0927449135,
+        "R2": 0.7375635392400952,
+        "MedAE": 81387.72869007534,
+        "MdAPE_pct": 17.95512543374441,
+        "mean_error": -62096.9118120639,
+        "underestimate_pct": 56.113077014830424,
+        "overestimate_pct": 43.886922985169576,
+        "negative_predictions": 0
+      },
+      "fold_mae_std": 2377.798890439202,
+      "fold_mae": [
+        193004.82074515833,
+        198641.73689168916,
+        197092.74969359874
+      ]
+    },
+    {
+      "model": "hist",
+      "metrics": {
+        "n": 25151,
+        "MAE": 196961.34402987146,
+        "RMSE": 677300.5769076097,
+        "R2": 0.7282002466863693,
+        "MedAE": 81075.8752267505,
+        "MdAPE_pct": 17.652966689268123,
+        "mean_error": -5947.597120397483,
+        "underestimate_pct": 49.36583038447775,
+        "overestimate_pct": 50.634169615522254,
+        "negative_predictions": 0
+      },
+      "fold_mae_std": 4271.644367437221,
+      "fold_mae": [
+        191857.97139584285,
+        197955.49795217405,
+        202270.59117922964
+      ]
+    },
+    {
+      "model": "cep_m2",
+      "metrics": {
+        "n": 25151,
+        "MAE": 234181.61365767868,
+        "RMSE": 876188.823144005,
+        "R2": 0.5451359802428887,
+        "MedAE": 91025.64102564106,
+        "MdAPE_pct": 18.89042995839113,
+        "mean_error": -58592.79629136249,
+        "underestimate_pct": 48.31617033119955,
+        "overestimate_pct": 51.38960677507852,
+        "negative_predictions": 0
+      },
+      "fold_mae_std": 5717.9348812922235,
+      "fold_mae": [
+        239543.77090751793,
+        225549.22154636847,
+        233037.36078454115
+      ]
+    },
+    {
+      "model": "ridge_v1",
+      "metrics": {
+        "n": 25151,
+        "MAE": 279928.4199524349,
+        "RMSE": 798157.9610036119,
+        "R2": 0.6225461437631186,
+        "MedAE": 133489.47715230077,
+        "MdAPE_pct": 26.796621499168218,
+        "mean_error": -9377.742723896694,
+        "underestimate_pct": 52.304083336646656,
+        "overestimate_pct": 47.695916663353344,
+        "negative_predictions": 786
+      },
+      "fold_mae_std": 9562.304941487866,
+      "fold_mae": [
+        291721.3213814011,
+        275194.5088342785,
+        269083.7058653382
+      ]
+    },
+    {
+      "model": "ridge_log",
+      "metrics": {
+        "n": 25151,
+        "MAE": 337584.42849445506,
+        "RMSE": 6604495.34357647,
+        "R2": -24.8443398791388,
+        "MedAE": 92420.5819922784,
+        "MdAPE_pct": 20.58342077439084,
+        "mean_error": 29176.104929700978,
+        "underestimate_pct": 54.73341020237764,
+        "overestimate_pct": 45.26658979762236,
+        "negative_predictions": 0
+      },
+      "fold_mae_std": 48817.15161180317,
+      "fold_mae": [
+        325280.064975096,
+        271186.31332747015,
+        390588.0148845263
+      ]
+    },
+    {
+      "model": "median",
+      "metrics": {
+        "n": 25151,
+        "MAE": 461851.7792990339,
+        "RMSE": 1332567.1578007657,
+        "R2": -0.0521178243542435,
+        "MedAE": 195000.0,
+        "MdAPE_pct": 48.026315789473685,
+        "mean_error": -296585.59609598026,
+        "underestimate_pct": 48.558705419267625,
+        "overestimate_pct": 50.45525028825891,
+        "negative_predictions": 0
+      },
+      "fold_mae_std": 11083.671529807616,
+      "fold_mae": [
+        448962.854990566,
+        462911.3569890069,
+        476108.7309766987
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "model": "median",
+      "fold": 1,
+      "train": {
+        "n": 25447,
+        "start": "2025-01-02",
+        "end": "2025-05-31"
+      },
+      "validation": {
+        "n": 10600,
+        "start": "2025-06-01",
+        "end": "2025-07-31"
+      },
+      "metrics": {
+        "n": 10600,
+        "MAE": 448962.854990566,
+        "RMSE": 1233459.6547780903,
+        "R2": -0.05347033017794178,
+        "MedAE": 195000.0,
+        "MdAPE_pct": 48.69847341582276,
+        "mean_error": -277888.2778320755,
+        "underestimate_pct": 47.5377358490566,
+        "overestimate_pct": 51.509433962264154,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 6141,
+          "MAE": 150583.62620582967,
+          "RMSE": 179638.21407963042,
+          "R2": -1.8483657976835084,
+          "MedAE": 150000.0,
+          "MdAPE_pct": 50.0,
+          "mean_error": 144708.75579710145,
+          "underestimate_pct": 9.444715844325028,
+          "overestimate_pct": 88.9106008793356,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2686,
+          "MAE": 261963.58429635144,
+          "RMSE": 297078.82219236466,
+          "R2": -3.4957589659748285,
+          "MedAE": 250000.0,
+          "MdAPE_pct": 35.714285714285715,
+          "mean_error": -261963.58429635144,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1215,
+          "MAE": 934975.9150123455,
+          "RMSE": 973509.4339324388,
+          "R2": -11.887029646022086,
+          "MedAE": 870500.0,
+          "MdAPE_pct": 65.9219992427111,
+          "mean_error": -934975.9150123455,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 457,
+          "MAE": 2418867.125273523,
+          "RMSE": 2528742.3817972606,
+          "R2": -10.762885169734323,
+          "MedAE": 2210000.0,
+          "MdAPE_pct": 83.0827067669173,
+          "mean_error": -2418867.125273523,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 101,
+          "MAE": 8804158.554059405,
+          "RMSE": 10725223.285692785,
+          "R2": -2.0660708698295855,
+          "MedAE": 6980500.0,
+          "MdAPE_pct": 93.94387995424265,
+          "mean_error": -8804158.554059405,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.43
+    },
+    {
+      "model": "median",
+      "fold": 2,
+      "train": {
+        "n": 36047,
+        "start": "2025-01-02",
+        "end": "2025-07-31"
+      },
+      "validation": {
+        "n": 5367,
+        "start": "2025-08-01",
+        "end": "2025-08-31"
+      },
+      "metrics": {
+        "n": 5367,
+        "MAE": 462911.3569890069,
+        "RMSE": 1341069.082664064,
+        "R2": -0.05479369582239335,
+        "MedAE": 193000.0,
+        "MdAPE_pct": 47.14587737843552,
+        "mean_error": -305655.8306838085,
+        "underestimate_pct": 49.245388485187256,
+        "overestimate_pct": 49.69256567915036,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 3008,
+          "MAE": 143264.06452460107,
+          "RMSE": 170794.0951787643,
+          "R2": -1.8281371681529222,
+          "MedAE": 140000.0,
+          "MdAPE_pct": 45.16129032258064,
+          "mean_error": 137317.85358710107,
+          "underestimate_pct": 9.441489361702128,
+          "overestimate_pct": 88.66356382978722,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 1410,
+          "MAE": 254373.98145390072,
+          "RMSE": 290680.5051099332,
+          "R2": -3.2697969852945628,
+          "MedAE": 235000.0,
+          "MdAPE_pct": 34.306569343065696,
+          "mean_error": -254373.98145390072,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 676,
+          "MAE": 942878.1405917159,
+          "RMSE": 982250.1896332379,
+          "R2": -11.729066053460755,
+          "MedAE": 890000.0,
+          "MdAPE_pct": 66.4179104477612,
+          "mean_error": -942878.1405917159,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 222,
+          "MAE": 2502781.767927928,
+          "RMSE": 2631239.997776441,
+          "R2": -9.497872308201115,
+          "MedAE": 2250000.0,
+          "MdAPE_pct": 83.33333333333334,
+          "mean_error": -2502781.767927928,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 51,
+          "MAE": 9839930.539215686,
+          "RMSE": 11928109.656866904,
+          "R2": -2.130085256251084,
+          "MedAE": 7150000.0,
+          "MdAPE_pct": 94.07894736842105,
+          "mean_error": -9839930.539215686,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.39
+    },
+    {
+      "model": "median",
+      "fold": 3,
+      "train": {
+        "n": 41414,
+        "start": "2025-01-02",
+        "end": "2025-08-31"
+      },
+      "validation": {
+        "n": 9184,
+        "start": "2025-09-01",
+        "end": "2025-10-21"
+      },
+      "metrics": {
+        "n": 9184,
+        "MAE": 476108.7309766987,
+        "RMSE": 1433866.8825157383,
+        "R2": -0.04998985478809215,
+        "MedAE": 198125.0,
+        "MdAPE_pct": 48.00111027562832,
+        "mean_error": -312865.1719414199,
+        "underestimate_pct": 49.335801393728225,
+        "overestimate_pct": 49.68423344947735,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 5182,
+          "MAE": 147737.341761868,
+          "RMSE": 175743.64848733533,
+          "R2": -1.8488053873877486,
+          "MedAE": 150000.0,
+          "MdAPE_pct": 50.0,
+          "mean_error": 141577.37189695096,
+          "underestimate_pct": 10.208413739868776,
+          "overestimate_pct": 88.05480509455809,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2441,
+          "MAE": 257879.0141581319,
+          "RMSE": 293377.90142446646,
+          "R2": -3.398311707883651,
+          "MedAE": 232075.08999999997,
+          "MdAPE_pct": 34.024859345031935,
+          "mean_error": -257879.0141581319,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1072,
+          "MAE": 939739.9980037314,
+          "RMSE": 978215.8648002717,
+          "R2": -11.967085747435553,
+          "MedAE": 887350.0,
+          "MdAPE_pct": 66.35123438773765,
+          "mean_error": -939739.9980037314,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 383,
+          "MAE": 2511519.995848564,
+          "RMSE": 2631426.1793679297,
+          "R2": -10.228683040766256,
+          "MedAE": 2300000.0,
+          "MdAPE_pct": 83.63636363636363,
+          "mean_error": -2511519.995848564,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 106,
+          "MAE": 9511429.909905659,
+          "RMSE": 11829794.707993729,
+          "R2": -1.828481257978929,
+          "MedAE": 6750000.0,
+          "MdAPE_pct": 93.75,
+          "mean_error": -9511429.909905659,
+          "underestimate_pct": 100.0,
+          "overestimate_pct": 0.0,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.48
+    },
+    {
+      "model": "cep_m2",
+      "fold": 1,
+      "train": {
+        "n": 25447,
+        "start": "2025-01-02",
+        "end": "2025-05-31"
+      },
+      "validation": {
+        "n": 10600,
+        "start": "2025-06-01",
+        "end": "2025-07-31"
+      },
+      "metrics": {
+        "n": 10600,
+        "MAE": 239543.77090751793,
+        "RMSE": 863420.048396771,
+        "R2": 0.48380158281038566,
+        "MedAE": 99737.03103896107,
+        "MdAPE_pct": 20.472187684523313,
+        "mean_error": -58412.83515025553,
+        "underestimate_pct": 47.764150943396224,
+        "overestimate_pct": 51.971698113207545,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 6141,
+          "MAE": 106784.82868206066,
+          "RMSE": 171711.12613255065,
+          "R2": -1.6025266035864418,
+          "MedAE": 67714.28571428568,
+          "MdAPE_pct": 21.782590587255303,
+          "mean_error": 69659.3721104759,
+          "underestimate_pct": 34.68490473864191,
+          "overestimate_pct": 64.89171144764695,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2686,
+          "MAE": 164168.14525803234,
+          "RMSE": 257341.8148789417,
+          "R2": -2.373497177446892,
+          "MedAE": 112897.35260266048,
+          "MdAPE_pct": 16.15203523491275,
+          "mean_error": 5782.754437485121,
+          "underestimate_pct": 59.04690990320178,
+          "overestimate_pct": 40.87862993298585,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1215,
+          "MAE": 362415.6489116068,
+          "RMSE": 517557.6270789936,
+          "R2": -2.642419184384116,
+          "MedAE": 272745.6907640854,
+          "MdAPE_pct": 20.802418619197795,
+          "mean_error": -130105.38868086338,
+          "underestimate_pct": 70.94650205761317,
+          "overestimate_pct": 29.05349794238683,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 457,
+          "MAE": 966685.6998040385,
+          "RMSE": 1207651.902393028,
+          "R2": -1.6827995342974909,
+          "MedAE": 845301.1099999999,
+          "MdAPE_pct": 31.280423280423282,
+          "mean_error": -760115.6676720263,
+          "underestimate_pct": 84.68271334792122,
+          "overestimate_pct": 15.317286652078774,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 101,
+          "MAE": 5547844.775069629,
+          "RMSE": 8053863.490658404,
+          "R2": -0.7289324782177848,
+          "MedAE": 4126654.8657142855,
+          "MdAPE_pct": 57.08994733342968,
+          "mean_error": -5515206.215533278,
+          "underestimate_pct": 97.02970297029702,
+          "overestimate_pct": 2.9702970297029703,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.23
+    },
+    {
+      "model": "cep_m2",
+      "fold": 2,
+      "train": {
+        "n": 36047,
+        "start": "2025-01-02",
+        "end": "2025-07-31"
+      },
+      "validation": {
+        "n": 5367,
+        "start": "2025-08-01",
+        "end": "2025-08-31"
+      },
+      "metrics": {
+        "n": 5367,
+        "MAE": 225549.22154636847,
+        "RMSE": 832011.07010491,
+        "R2": 0.5940024298933706,
+        "MedAE": 87051.28205128206,
+        "MdAPE_pct": 17.802658967374718,
+        "mean_error": -41802.365443789306,
+        "underestimate_pct": 48.33240171417925,
+        "overestimate_pct": 51.33221539034842,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 3008,
+          "MAE": 104062.99018088034,
+          "RMSE": 211413.5350470498,
+          "R2": -3.333315816098956,
+          "MedAE": 57740.78880190608,
+          "MdAPE_pct": 18.61555056684082,
+          "mean_error": 65677.75809167408,
+          "underestimate_pct": 37.63297872340425,
+          "overestimate_pct": 61.868351063829785,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 1410,
+          "MAE": 155181.06697555666,
+          "RMSE": 255023.57706738313,
+          "R2": -2.286518490045688,
+          "MedAE": 102566.8960784314,
+          "MdAPE_pct": 14.829192468721459,
+          "mean_error": 20204.53993576065,
+          "underestimate_pct": 55.95744680851064,
+          "overestimate_pct": 43.90070921985816,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 676,
+          "MAE": 328802.25112252164,
+          "RMSE": 449293.98870924785,
+          "R2": -1.6632596758182179,
+          "MedAE": 249733.33333333337,
+          "MdAPE_pct": 18.344698879366007,
+          "mean_error": -94894.57984277226,
+          "underestimate_pct": 66.42011834319527,
+          "overestimate_pct": 33.43195266272189,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 222,
+          "MAE": 895511.3964513041,
+          "RMSE": 1148956.365539891,
+          "R2": -1.0016467350449467,
+          "MedAE": 743731.4853896104,
+          "MdAPE_pct": 24.885232384793802,
+          "mean_error": -663153.4395278362,
+          "underestimate_pct": 81.08108108108108,
+          "overestimate_pct": 18.91891891891892,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 51,
+          "MAE": 5051412.575857304,
+          "RMSE": 7745454.190744374,
+          "R2": -0.31979567345343507,
+          "MedAE": 3324358.974358974,
+          "MdAPE_pct": 40.06094217347956,
+          "mean_error": -4686893.988962777,
+          "underestimate_pct": 86.27450980392157,
+          "overestimate_pct": 13.725490196078432,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.23
+    },
+    {
+      "model": "cep_m2",
+      "fold": 3,
+      "train": {
+        "n": 41414,
+        "start": "2025-01-02",
+        "end": "2025-08-31"
+      },
+      "validation": {
+        "n": 9184,
+        "start": "2025-09-01",
+        "end": "2025-10-21"
+      },
+      "metrics": {
+        "n": 9184,
+        "MAE": 233037.36078454115,
+        "RMSE": 915120.0214949378,
+        "R2": 0.5723154625937446,
+        "MedAE": 84757.14273993805,
+        "MdAPE_pct": 17.947261072261067,
+        "mean_error": -68612.5949035858,
+        "underestimate_pct": 48.943815331010455,
+        "overestimate_pct": 50.75130662020906,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 5182,
+          "MAE": 97167.30140735274,
+          "RMSE": 185794.17597850668,
+          "R2": -2.1839606952238135,
+          "MedAE": 55000.0,
+          "MdAPE_pct": 17.934056826054025,
+          "mean_error": 57166.691071420755,
+          "underestimate_pct": 38.363566190659974,
+          "overestimate_pct": 61.23118487070629,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2441,
+          "MAE": 155725.45942247382,
+          "RMSE": 234803.3277460578,
+          "R2": -1.8173428746751927,
+          "MedAE": 107153.28467153292,
+          "MdAPE_pct": 15.627822944896113,
+          "mean_error": 20166.998695435537,
+          "underestimate_pct": 54.772634166325275,
+          "overestimate_pct": 45.022531749283075,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1072,
+          "MAE": 320225.05383620644,
+          "RMSE": 428171.81094226125,
+          "R2": -1.4843290759865377,
+          "MedAE": 256097.5609756098,
+          "MdAPE_pct": 18.84950387057706,
+          "mean_error": -139982.14888269955,
+          "underestimate_pct": 70.1492537313433,
+          "overestimate_pct": 29.757462686567166,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 383,
+          "MAE": 928548.3240797133,
+          "RMSE": 1202466.0758513852,
+          "R2": -1.34472603904541,
+          "MedAE": 735073.1707317072,
+          "MdAPE_pct": 27.55037115588547,
+          "mean_error": -764490.9806300476,
+          "underestimate_pct": 83.5509138381201,
+          "overestimate_pct": 16.187989556135772,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 106,
+          "MAE": 5260877.861010585,
+          "RMSE": 7907074.100440903,
+          "R2": -0.2636607807784068,
+          "MedAE": 3423407.2267481107,
+          "MdAPE_pct": 46.50445178406811,
+          "mean_error": -5025873.578855002,
+          "underestimate_pct": 92.45283018867924,
+          "overestimate_pct": 7.547169811320755,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.28
+    },
+    {
+      "model": "ridge_v1",
+      "fold": 1,
+      "train": {
+        "n": 25447,
+        "start": "2025-01-02",
+        "end": "2025-05-31"
+      },
+      "validation": {
+        "n": 10600,
+        "start": "2025-06-01",
+        "end": "2025-07-31"
+      },
+      "metrics": {
+        "n": 10600,
+        "MAE": 291721.3213814011,
+        "RMSE": 795495.1345254513,
+        "R2": 0.5618251297912075,
+        "MedAE": 144996.09529878158,
+        "MdAPE_pct": 29.141474980774145,
+        "mean_error": 2792.595122253925,
+        "underestimate_pct": 52.24528301886793,
+        "overestimate_pct": 47.75471698113208,
+        "negative_predictions": 418
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 6141,
+          "MAE": 163644.45243583922,
+          "RMSE": 255840.37746691017,
+          "R2": -4.777453770323533,
+          "MedAE": 108911.45812923461,
+          "MdAPE_pct": 36.85907358701378,
+          "mean_error": 15468.256955364777,
+          "underestimate_pct": 51.57140530858166,
+          "overestimate_pct": 48.42859469141834,
+          "negative_predictions": 394
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2686,
+          "MAE": 259544.58230046424,
+          "RMSE": 446635.99345988745,
+          "R2": -9.161716402608048,
+          "MedAE": 165576.42947888596,
+          "MdAPE_pct": 23.892832630263865,
+          "mean_error": 56863.0699487014,
+          "underestimate_pct": 50.89352196574832,
+          "overestimate_pct": 49.10647803425168,
+          "negative_predictions": 21
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1215,
+          "MAE": 479809.90228766436,
+          "RMSE": 1015070.9771790416,
+          "R2": -13.010876983147224,
+          "MedAE": 265015.2820224755,
+          "MdAPE_pct": 19.541341379499062,
+          "mean_error": 151486.74049686178,
+          "underestimate_pct": 50.452674897119344,
+          "overestimate_pct": 49.547325102880656,
+          "negative_predictions": 2
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 457,
+          "MAE": 894624.0168750545,
+          "RMSE": 1435139.6187948326,
+          "R2": -2.788724185234993,
+          "MedAE": 632237.8680411237,
+          "MdAPE_pct": 22.55434111436693,
+          "mean_error": -151447.96623974864,
+          "underestimate_pct": 67.39606126914661,
+          "overestimate_pct": 32.60393873085339,
+          "negative_predictions": 1
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 101,
+          "MAE": 3944123.457266382,
+          "RMSE": 5951035.438041668,
+          "R2": 0.05603785793245086,
+          "MedAE": 2751366.543713743,
+          "MdAPE_pct": 36.58267546514406,
+          "mean_error": -3296712.204765717,
+          "underestimate_pct": 82.17821782178217,
+          "overestimate_pct": 17.82178217821782,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.58
+    },
+    {
+      "model": "ridge_v1",
+      "fold": 2,
+      "train": {
+        "n": 36047,
+        "start": "2025-01-02",
+        "end": "2025-07-31"
+      },
+      "validation": {
+        "n": 5367,
+        "start": "2025-08-01",
+        "end": "2025-08-31"
+      },
+      "metrics": {
+        "n": 5367,
+        "MAE": 275194.5088342785,
+        "RMSE": 816283.7069165342,
+        "R2": 0.6092063655619497,
+        "MedAE": 125051.55620876665,
+        "MdAPE_pct": 25.164353308678127,
+        "mean_error": 138.46756591331766,
+        "underestimate_pct": 51.57443637041178,
+        "overestimate_pct": 48.425563629588225,
+        "negative_predictions": 116
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 3008,
+          "MAE": 149749.53425880292,
+          "RMSE": 285502.09583076625,
+          "R2": -6.90266126715401,
+          "MedAE": 90809.28555675386,
+          "MdAPE_pct": 30.031455090449487,
+          "mean_error": 32906.64528935655,
+          "underestimate_pct": 50.09973404255319,
+          "overestimate_pct": 49.90026595744681,
+          "negative_predictions": 105
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 1410,
+          "MAE": 234823.87759145952,
+          "RMSE": 427120.1889196342,
+          "R2": -8.21882591013395,
+          "MedAE": 145088.0478814866,
+          "MdAPE_pct": 20.8890132734542,
+          "mean_error": 56301.82582125848,
+          "underestimate_pct": 50.212765957446805,
+          "overestimate_pct": 49.787234042553195,
+          "negative_predictions": 11
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 676,
+          "MAE": 418860.53285879595,
+          "RMSE": 733804.6204689214,
+          "R2": -6.1041673186886705,
+          "MedAE": 262176.2519498676,
+          "MdAPE_pct": 19.42024749430921,
+          "mean_error": 103906.54237376878,
+          "underestimate_pct": 52.662721893491124,
+          "overestimate_pct": 47.337278106508876,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 222,
+          "MAE": 822975.0601228275,
+          "RMSE": 1300769.4123203554,
+          "R2": -1.5655530133096094,
+          "MedAE": 563125.6744445106,
+          "MdAPE_pct": 19.40507422994205,
+          "mean_error": -151866.88557870497,
+          "underestimate_pct": 68.01801801801803,
+          "overestimate_pct": 31.98198198198198,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 51,
+          "MAE": 4501381.939202388,
+          "RMSE": 6765092.148928983,
+          "R2": -0.006839752192644433,
+          "MedAE": 2845753.694007797,
+          "MdAPE_pct": 34.49845784582315,
+          "mean_error": -4199058.47173132,
+          "underestimate_pct": 90.19607843137256,
+          "overestimate_pct": 9.803921568627452,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.63
+    },
+    {
+      "model": "ridge_v1",
+      "fold": 3,
+      "train": {
+        "n": 41414,
+        "start": "2025-01-02",
+        "end": "2025-08-31"
+      },
+      "validation": {
+        "n": 9184,
+        "start": "2025-09-01",
+        "end": "2025-10-21"
+      },
+      "metrics": {
+        "n": 9184,
+        "MAE": 269083.7058653382,
+        "RMSE": 790476.5514684661,
+        "R2": 0.6808863232140208,
+        "MedAE": 126023.43029328031,
+        "MdAPE_pct": 25.437323905204234,
+        "mean_error": -28985.656682368695,
+        "underestimate_pct": 52.79834494773519,
+        "overestimate_pct": 47.201655052264805,
+        "negative_predictions": 252
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 5182,
+          "MAE": 143240.51312847954,
+          "RMSE": 272678.0105022221,
+          "R2": -5.858098822274811,
+          "MedAE": 88355.97257534543,
+          "MdAPE_pct": 30.330287355040262,
+          "mean_error": 14333.877177444181,
+          "underestimate_pct": 51.13855654187572,
+          "overestimate_pct": 48.86144345812428,
+          "negative_predictions": 236
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2441,
+          "MAE": 225841.17402789404,
+          "RMSE": 358889.30241158523,
+          "R2": -5.581914489598052,
+          "MedAE": 150624.08881228382,
+          "MdAPE_pct": 21.84719119863594,
+          "mean_error": 48201.1947065825,
+          "underestimate_pct": 50.02048340843916,
+          "overestimate_pct": 49.97951659156084,
+          "negative_predictions": 12
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1072,
+          "MAE": 372946.0412799347,
+          "RMSE": 574892.8182122555,
+          "R2": -3.4786460924501705,
+          "MedAE": 249075.95587542048,
+          "MdAPE_pct": 18.714225226642807,
+          "mean_error": 7740.974068879405,
+          "underestimate_pct": 58.3955223880597,
+          "overestimate_pct": 41.6044776119403,
+          "negative_predictions": 3
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 383,
+          "MAE": 933178.6119526671,
+          "RMSE": 1316607.3942007953,
+          "R2": -1.810988186202465,
+          "MedAE": 645551.9933640782,
+          "MdAPE_pct": 23.669906155505195,
+          "mean_error": -233601.54119824327,
+          "underestimate_pct": 67.1018276762402,
+          "overestimate_pct": 32.89817232375979,
+          "negative_predictions": 1
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 106,
+          "MAE": 3967061.747202204,
+          "RMSE": 6158853.965656407,
+          "R2": 0.23334724198426493,
+          "MedAE": 2523098.6348361983,
+          "MdAPE_pct": 35.868750171411094,
+          "mean_error": -3556325.2142081996,
+          "underestimate_pct": 89.62264150943396,
+          "overestimate_pct": 10.377358490566039,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.79
+    },
+    {
+      "model": "ridge_log",
+      "fold": 1,
+      "train": {
+        "n": 25447,
+        "start": "2025-01-02",
+        "end": "2025-05-31"
+      },
+      "validation": {
+        "n": 10600,
+        "start": "2025-06-01",
+        "end": "2025-07-31"
+      },
+      "metrics": {
+        "n": 10600,
+        "MAE": 325280.064975096,
+        "RMSE": 4498953.156318544,
+        "R2": -13.015072663197747,
+        "MedAE": 94127.8430239911,
+        "MdAPE_pct": 21.44939070452589,
+        "mean_error": 21655.243071668727,
+        "underestimate_pct": 53.5377358490566,
+        "overestimate_pct": 46.4622641509434,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 6141,
+          "MAE": 83779.48900048067,
+          "RMSE": 142748.11293199394,
+          "R2": -0.798618500681747,
+          "MedAE": 57602.11985766981,
+          "MdAPE_pct": 18.655427836638204,
+          "mean_error": 47253.40896644417,
+          "underestimate_pct": 35.17342452369321,
+          "overestimate_pct": 64.82657547630679,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2686,
+          "MAE": 199423.13568096535,
+          "RMSE": 356163.02802435483,
+          "R2": -5.461856393055953,
+          "MedAE": 149188.82917467767,
+          "MdAPE_pct": 21.799708772070154,
+          "mean_error": -70435.37605231753,
+          "underestimate_pct": 78.44378257632167,
+          "overestimate_pct": 21.55621742367833,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1215,
+          "MAE": 564791.3728898135,
+          "RMSE": 1665407.1995787562,
+          "R2": -36.71493592616479,
+          "MedAE": 398391.9052402596,
+          "MdAPE_pct": 29.582861998389387,
+          "mean_error": -126757.97192325268,
+          "underestimate_pct": 80.82304526748972,
+          "overestimate_pct": 19.17695473251029,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 457,
+          "MAE": 1608533.0198578667,
+          "RMSE": 9274504.561838478,
+          "R2": -157.2290136921176,
+          "MedAE": 897875.7884241478,
+          "MdAPE_pct": 32.63320032654284,
+          "mean_error": 8998.486788914228,
+          "underestimate_pct": 75.49234135667396,
+          "overestimate_pct": 24.50765864332604,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 101,
+          "MAE": 9668388.081275487,
+          "RMSE": 41195605.70370889,
+          "R2": -44.23465575774688,
+          "MedAE": 3718386.0374540854,
+          "MdAPE_pct": 52.401455541773636,
+          "mean_error": 2756935.0455197818,
+          "underestimate_pct": 80.19801980198021,
+          "overestimate_pct": 19.801980198019802,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.56
+    },
+    {
+      "model": "ridge_log",
+      "fold": 2,
+      "train": {
+        "n": 36047,
+        "start": "2025-01-02",
+        "end": "2025-07-31"
+      },
+      "validation": {
+        "n": 5367,
+        "start": "2025-08-01",
+        "end": "2025-08-31"
+      },
+      "metrics": {
+        "n": 5367,
+        "MAE": 271186.31332747015,
+        "RMSE": 1904330.0131444284,
+        "R2": -1.1269126251808808,
+        "MedAE": 91515.62212899956,
+        "MdAPE_pct": 19.710248141241905,
+        "mean_error": -33535.379529165795,
+        "underestimate_pct": 56.04620831004286,
+        "overestimate_pct": 43.95379168995714,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 3008,
+          "MAE": 90584.86608839955,
+          "RMSE": 236466.37701520362,
+          "R2": -4.4211766693346926,
+          "MedAE": 55436.3122058282,
+          "MdAPE_pct": 17.323974080790016,
+          "mean_error": 47337.061956133904,
+          "underestimate_pct": 39.96010638297872,
+          "overestimate_pct": 60.03989361702128,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 1410,
+          "MAE": 185110.53058364097,
+          "RMSE": 317303.1217186506,
+          "R2": -4.087730560031926,
+          "MedAE": 132349.9926288493,
+          "MdAPE_pct": 19.70271953255083,
+          "mean_error": -60748.202304155784,
+          "underestimate_pct": 76.52482269503547,
+          "overestimate_pct": 23.47517730496454,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 676,
+          "MAE": 445964.2375632976,
+          "RMSE": 626142.5962424376,
+          "R2": -4.172479722908264,
+          "MedAE": 349858.8097611356,
+          "MdAPE_pct": 25.440393126027583,
+          "mean_error": -164309.88505997404,
+          "underestimate_pct": 75.14792899408283,
+          "overestimate_pct": 24.85207100591716,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 222,
+          "MAE": 1102925.6454876685,
+          "RMSE": 2025986.3642555173,
+          "R2": -5.223768029930611,
+          "MedAE": 842228.7818385265,
+          "MdAPE_pct": 30.60781116013963,
+          "mean_error": -447304.98594384204,
+          "underestimate_pct": 80.18018018018019,
+          "overestimate_pct": 19.81981981981982,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 51,
+          "MAE": 7365696.0866792435,
+          "RMSE": 18774653.263941795,
+          "R2": -6.754553043339563,
+          "MedAE": 3213582.076836997,
+          "MdAPE_pct": 49.87815204544171,
+          "mean_error": -516551.1738852672,
+          "underestimate_pct": 80.3921568627451,
+          "overestimate_pct": 19.607843137254903,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.67
+    },
+    {
+      "model": "ridge_log",
+      "fold": 3,
+      "train": {
+        "n": 41414,
+        "start": "2025-01-02",
+        "end": "2025-08-31"
+      },
+      "validation": {
+        "n": 9184,
+        "start": "2025-09-01",
+        "end": "2025-10-21"
+      },
+      "metrics": {
+        "n": 9184,
+        "MAE": 390588.0148845263,
+        "RMSE": 9694017.951792153,
+        "R2": -46.992687895217536,
+        "MedAE": 90550.0609882704,
+        "MdAPE_pct": 20.135846571289335,
+        "mean_error": 74504.2487434945,
+        "underestimate_pct": 55.346254355400696,
+        "overestimate_pct": 44.653745644599304,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 5182,
+          "MAE": 88743.86045408322,
+          "RMSE": 412194.2660003297,
+          "R2": -14.671385631933145,
+          "MedAE": 55955.799740734496,
+          "MdAPE_pct": 18.17284235736522,
+          "mean_error": 47157.62258805175,
+          "underestimate_pct": 38.92319567734465,
+          "overestimate_pct": 61.07680432265534,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2441,
+          "MAE": 171593.57536380572,
+          "RMSE": 270639.9521389761,
+          "R2": -2.742958613870723,
+          "MedAE": 133498.65072113107,
+          "MdAPE_pct": 19.301346963421288,
+          "mean_error": -65690.24683789395,
+          "underestimate_pct": 74.76444080294961,
+          "overestimate_pct": 25.23555919705039,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1072,
+          "MAE": 460004.7944723212,
+          "RMSE": 722158.0823297492,
+          "R2": -6.067039702193312,
+          "MedAE": 369107.75334310613,
+          "MdAPE_pct": 27.072559775024292,
+          "mean_error": -230020.07723557868,
+          "underestimate_pct": 80.69029850746269,
+          "overestimate_pct": 19.30970149253731,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 383,
+          "MAE": 1534734.8973822528,
+          "RMSE": 7388887.41426745,
+          "R2": -87.53286919378883,
+          "MedAE": 896002.0586680744,
+          "MdAPE_pct": 31.353891893314106,
+          "mean_error": -230789.0649034672,
+          "underestimate_pct": 77.80678851174935,
+          "overestimate_pct": 22.193211488250654,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 106,
+          "MAE": 15353784.160298582,
+          "RMSE": 89047826.6161355,
+          "R2": -159.2675277242765,
+          "MedAE": 3463091.029938466,
+          "MdAPE_pct": 48.12216487176514,
+          "mean_error": 8822640.069762608,
+          "underestimate_pct": 73.58490566037736,
+          "overestimate_pct": 26.41509433962264,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 0.9
+    },
+    {
+      "model": "forest",
+      "fold": 1,
+      "train": {
+        "n": 25447,
+        "start": "2025-01-02",
+        "end": "2025-05-31"
+      },
+      "validation": {
+        "n": 10600,
+        "start": "2025-06-01",
+        "end": "2025-07-31"
+      },
+      "metrics": {
+        "n": 10600,
+        "MAE": 193407.04557012155,
+        "RMSE": 623154.5852905494,
+        "R2": 0.7311165937283909,
+        "MedAE": 81021.76143833573,
+        "MdAPE_pct": 17.607803422707207,
+        "mean_error": -6857.543754497921,
+        "underestimate_pct": 48.81132075471698,
+        "overestimate_pct": 51.18867924528302,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 6141,
+          "MAE": 83849.26905733647,
+          "RMSE": 148246.13857741712,
+          "R2": -0.9398363118346951,
+          "MedAE": 54260.44150879944,
+          "MdAPE_pct": 17.74154661421668,
+          "mean_error": 45278.29573010459,
+          "underestimate_pct": 38.12082722683602,
+          "overestimate_pct": 61.87917277316398,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2686,
+          "MAE": 157361.4209961229,
+          "RMSE": 249059.26594454134,
+          "R2": -2.1598396163644784,
+          "MedAE": 114440.37308998898,
+          "MdAPE_pct": 16.376737717024355,
+          "mean_error": -3654.853600915165,
+          "underestimate_pct": 61.6530156366344,
+          "overestimate_pct": 38.3469843633656,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1215,
+          "MAE": 345494.793465082,
+          "RMSE": 771041.7715582465,
+          "R2": -7.084037366269923,
+          "MedAE": 231636.77049482334,
+          "MdAPE_pct": 17.188879095180784,
+          "mean_error": 7154.556145734674,
+          "underestimate_pct": 63.29218106995885,
+          "overestimate_pct": 36.70781893004115,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 457,
+          "MAE": 808438.7431870359,
+          "RMSE": 1281817.263979779,
+          "R2": -2.022434623426002,
+          "MedAE": 604812.9466807898,
+          "MdAPE_pct": 21.818598124668263,
+          "mean_error": -222675.15507695053,
+          "underestimate_pct": 71.77242888402627,
+          "overestimate_pct": 28.227571115973742,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 101,
+          "MAE": 3200899.6561390995,
+          "RMSE": 4814823.1223836355,
+          "R2": 0.3820829494116891,
+          "MedAE": 2164247.4045949653,
+          "MdAPE_pct": 30.274016316092546,
+          "mean_error": -2454032.4846642907,
+          "underestimate_pct": 79.20792079207921,
+          "overestimate_pct": 20.792079207920793,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 9.03
+    },
+    {
+      "model": "forest",
+      "fold": 2,
+      "train": {
+        "n": 36047,
+        "start": "2025-01-02",
+        "end": "2025-07-31"
+      },
+      "validation": {
+        "n": 5367,
+        "start": "2025-08-01",
+        "end": "2025-08-31"
+      },
+      "metrics": {
+        "n": 5367,
+        "MAE": 196902.91956359395,
+        "RMSE": 649700.3819422188,
+        "R2": 0.752433732448789,
+        "MedAE": 83869.16044003167,
+        "MdAPE_pct": 17.618446231319364,
+        "mean_error": -10826.025183077649,
+        "underestimate_pct": 48.462828395751814,
+        "overestimate_pct": 51.537171604248186,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 3008,
+          "MAE": 90528.84994040479,
+          "RMSE": 167162.2555550416,
+          "R2": -1.7091385165921218,
+          "MedAE": 55174.14108354747,
+          "MdAPE_pct": 17.72189168722786,
+          "mean_error": 50843.77804523881,
+          "underestimate_pct": 37.36702127659575,
+          "overestimate_pct": 62.63297872340425,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 1410,
+          "MAE": 151351.39519776538,
+          "RMSE": 231590.97054735338,
+          "R2": -1.7103080774630084,
+          "MedAE": 112268.73043012858,
+          "MdAPE_pct": 16.960138717195733,
+          "mean_error": -2184.6728287449146,
+          "underestimate_pct": 59.9290780141844,
+          "overestimate_pct": 40.0709219858156,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 676,
+          "MAE": 322558.5439481282,
+          "RMSE": 576329.9659787307,
+          "R2": -3.3822252777061896,
+          "MedAE": 248260.81367091998,
+          "MdAPE_pct": 18.133149807762948,
+          "mean_error": -22440.041641484328,
+          "underestimate_pct": 65.08875739644971,
+          "overestimate_pct": 34.9112426035503,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 222,
+          "MAE": 712139.4359094182,
+          "RMSE": 1052328.8249237847,
+          "R2": -0.6791260310895189,
+          "MedAE": 539861.3079999627,
+          "MdAPE_pct": 18.796486642055633,
+          "mean_error": -161611.9923948308,
+          "underestimate_pct": 66.66666666666666,
+          "overestimate_pct": 33.33333333333333,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 51,
+          "MAE": 3821905.7052430687,
+          "RMSE": 5662761.617429714,
+          "R2": 0.2945447329422962,
+          "MedAE": 2298064.468316956,
+          "MdAPE_pct": 30.129523519095073,
+          "mean_error": -3076738.085643723,
+          "underestimate_pct": 86.27450980392157,
+          "overestimate_pct": 13.725490196078432,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 13.9
+    },
+    {
+      "model": "forest",
+      "fold": 3,
+      "train": {
+        "n": 41414,
+        "start": "2025-01-02",
+        "end": "2025-08-31"
+      },
+      "validation": {
+        "n": 9184,
+        "start": "2025-09-01",
+        "end": "2025-10-21"
+      },
+      "metrics": {
+        "n": 9184,
+        "MAE": 194037.59577243813,
+        "RMSE": 612364.2308444759,
+        "R2": 0.8084919366287138,
+        "MedAE": 84663.63465783608,
+        "MdAPE_pct": 17.985848555391573,
+        "mean_error": -14367.257690802913,
+        "underestimate_pct": 47.89851916376306,
+        "overestimate_pct": 52.10148083623694,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 5182,
+          "MAE": 85585.56333225669,
+          "RMSE": 175734.3600091974,
+          "R2": -1.848504262794946,
+          "MedAE": 57334.94234602191,
+          "MdAPE_pct": 18.4440594312106,
+          "mean_error": 45825.69427502036,
+          "underestimate_pct": 36.99343882670784,
+          "overestimate_pct": 63.00656117329216,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2441,
+          "MAE": 156327.56327298516,
+          "RMSE": 250485.3341913907,
+          "R2": -2.206238432076271,
+          "MedAE": 117840.24320564384,
+          "MdAPE_pct": 16.931720243784223,
+          "mean_error": -826.6998678429593,
+          "underestimate_pct": 58.50061450225318,
+          "overestimate_pct": 41.49938549774683,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1072,
+          "MAE": 298180.0276850742,
+          "RMSE": 419480.9025282685,
+          "R2": -1.3845002166843785,
+          "MedAE": 223004.36506709293,
+          "MdAPE_pct": 16.580771201667666,
+          "mean_error": -75766.05648443439,
+          "underestimate_pct": 65.85820895522389,
+          "overestimate_pct": 34.14179104477612,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 383,
+          "MAE": 826687.5761619685,
+          "RMSE": 1338148.5688469065,
+          "R2": -1.9037224925009348,
+          "MedAE": 587849.8189225278,
+          "MdAPE_pct": 21.114770133770662,
+          "mean_error": -249317.02850867648,
+          "underestimate_pct": 69.45169712793734,
+          "overestimate_pct": 30.548302872062667,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 106,
+          "MAE": 3025197.8970615813,
+          "RMSE": 4613627.73346743,
+          "R2": 0.5697865464816674,
+          "MedAE": 1947741.5409140862,
+          "MdAPE_pct": 27.625648942617154,
+          "mean_error": -1798962.5803580005,
+          "underestimate_pct": 77.35849056603774,
+          "overestimate_pct": 22.641509433962266,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 16.36
+    },
+    {
+      "model": "forest_log",
+      "fold": 1,
+      "train": {
+        "n": 25447,
+        "start": "2025-01-02",
+        "end": "2025-05-31"
+      },
+      "validation": {
+        "n": 10600,
+        "start": "2025-06-01",
+        "end": "2025-07-31"
+      },
+      "metrics": {
+        "n": 10600,
+        "MAE": 193004.82074515833,
+        "RMSE": 639274.4004659959,
+        "R2": 0.7170256712125436,
+        "MedAE": 79282.23398265862,
+        "MdAPE_pct": 18.037167783222234,
+        "mean_error": -60352.752052506476,
+        "underestimate_pct": 56.59433962264151,
+        "overestimate_pct": 43.40566037735849,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 6141,
+          "MAE": 77837.94967982879,
+          "RMSE": 134873.08627886046,
+          "R2": -0.6056426505066563,
+          "MedAE": 51075.13794734201,
+          "MdAPE_pct": 17.49096173828718,
+          "mean_error": 25801.090526105352,
+          "underestimate_pct": 46.73505943657385,
+          "overestimate_pct": 53.26494056342616,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2686,
+          "MAE": 157095.46216389356,
+          "RMSE": 233742.37779094133,
+          "R2": -1.7831367599643668,
+          "MedAE": 121691.44178104872,
+          "MdAPE_pct": 17.62633292789349,
+          "mean_error": -37657.187098073366,
+          "underestimate_pct": 67.72151898734177,
+          "overestimate_pct": 32.278481012658226,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1215,
+          "MAE": 339794.1198269309,
+          "RMSE": 624936.4338517862,
+          "R2": -4.310607302035424,
+          "MedAE": 254461.1547063887,
+          "MdAPE_pct": 19.05359053320053,
+          "mean_error": -89760.62661968767,
+          "underestimate_pct": 70.20576131687243,
+          "overestimate_pct": 29.79423868312757,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 457,
+          "MAE": 797747.0731958918,
+          "RMSE": 1017990.7804221696,
+          "R2": -0.9063049349232217,
+          "MedAE": 688213.8328569809,
+          "MdAPE_pct": 25.838068759085235,
+          "mean_error": -522790.34193965077,
+          "underestimate_pct": 80.30634573304157,
+          "overestimate_pct": 19.693654266958426,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 101,
+          "MAE": 3648213.579231564,
+          "RMSE": 5562743.79820848,
+          "R2": 0.17520195930337523,
+          "MedAE": 2369054.5331669482,
+          "MdAPE_pct": 32.84114932760246,
+          "mean_error": -3456060.5596298575,
+          "underestimate_pct": 89.10891089108911,
+          "overestimate_pct": 10.891089108910892,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 8.48
+    },
+    {
+      "model": "forest_log",
+      "fold": 2,
+      "train": {
+        "n": 36047,
+        "start": "2025-01-02",
+        "end": "2025-07-31"
+      },
+      "validation": {
+        "n": 5367,
+        "start": "2025-08-01",
+        "end": "2025-08-31"
+      },
+      "metrics": {
+        "n": 5367,
+        "MAE": 198641.73689168916,
+        "RMSE": 710158.3080250879,
+        "R2": 0.7042153928790401,
+        "MedAE": 83962.60764677881,
+        "MdAPE_pct": 17.68319230246719,
+        "mean_error": -60047.370208708715,
+        "underestimate_pct": 56.307061673187995,
+        "overestimate_pct": 43.692938326812,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 3008,
+          "MAE": 83527.6950313354,
+          "RMSE": 150743.1501646844,
+          "R2": -1.203078332618091,
+          "MedAE": 52763.44780491949,
+          "MdAPE_pct": 16.67622702748737,
+          "mean_error": 30575.03073043432,
+          "underestimate_pct": 45.97739361702128,
+          "overestimate_pct": 54.02260638297872,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 1410,
+          "MAE": 150975.63483608223,
+          "RMSE": 216012.72265119158,
+          "R2": -1.3579471977346262,
+          "MedAE": 119962.50675842003,
+          "MdAPE_pct": 17.608939522013184,
+          "mean_error": -35805.598656867965,
+          "underestimate_pct": 66.52482269503545,
+          "overestimate_pct": 33.47517730496454,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 676,
+          "MAE": 324554.61206625606,
+          "RMSE": 467160.1890630209,
+          "R2": -1.8792803179603244,
+          "MedAE": 257880.15145897563,
+          "MdAPE_pct": 19.008877299265098,
+          "mean_error": -113666.88695050866,
+          "underestimate_pct": 72.0414201183432,
+          "overestimate_pct": 27.958579881656803,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 222,
+          "MAE": 735042.0405914286,
+          "RMSE": 957435.1092236247,
+          "R2": -0.38994962090664664,
+          "MedAE": 607667.5925246503,
+          "MdAPE_pct": 21.649399072703208,
+          "mean_error": -417662.70734152896,
+          "underestimate_pct": 76.12612612612612,
+          "overestimate_pct": 23.873873873873876,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 51,
+          "MAE": 4302058.81091131,
+          "RMSE": 6599960.797205727,
+          "R2": 0.04171292036166785,
+          "MedAE": 2577370.849276823,
+          "MdAPE_pct": 33.820631273751395,
+          "mean_error": -3807805.8359360597,
+          "underestimate_pct": 88.23529411764706,
+          "overestimate_pct": 11.76470588235294,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 13.07
+    },
+    {
+      "model": "forest_log",
+      "fold": 3,
+      "train": {
+        "n": 41414,
+        "start": "2025-01-02",
+        "end": "2025-08-31"
+      },
+      "validation": {
+        "n": 9184,
+        "start": "2025-09-01",
+        "end": "2025-10-21"
+      },
+      "metrics": {
+        "n": 9184,
+        "MAE": 197092.74969359874,
+        "RMSE": 668281.4325509218,
+        "R2": 0.7719205146120834,
+        "MedAE": 82437.1442510754,
+        "MdAPE_pct": 18.01765965905485,
+        "mean_error": -65307.711380499866,
+        "underestimate_pct": 55.444250871080136,
+        "overestimate_pct": 44.55574912891986,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 5182,
+          "MAE": 78241.08299188345,
+          "RMSE": 140051.9482227755,
+          "R2": -0.8091801520557884,
+          "MedAE": 53549.28972362203,
+          "MdAPE_pct": 17.494170844562966,
+          "mean_error": 25676.77873835446,
+          "underestimate_pct": 44.9633346198379,
+          "overestimate_pct": 55.0366653801621,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2441,
+          "MAE": 153994.76904634188,
+          "RMSE": 234727.44652860475,
+          "R2": -1.815522211695224,
+          "MedAE": 122508.83564252988,
+          "MdAPE_pct": 17.671619530387474,
+          "mean_error": -35435.743134772776,
+          "underestimate_pct": 65.34207292093404,
+          "overestimate_pct": 34.657927079065956,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1072,
+          "MAE": 307900.26547571085,
+          "RMSE": 408192.80621105834,
+          "R2": -1.2578946372663586,
+          "MedAE": 247694.19554469752,
+          "MdAPE_pct": 18.661545900434454,
+          "mean_error": -151212.91108075803,
+          "underestimate_pct": 72.76119402985076,
+          "overestimate_pct": 27.238805970149254,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 383,
+          "MAE": 813986.9447973417,
+          "RMSE": 1117324.6428337093,
+          "R2": -1.024441331732632,
+          "MedAE": 637905.9156361341,
+          "MdAPE_pct": 24.393081532140304,
+          "mean_error": -504308.16312984965,
+          "underestimate_pct": 78.59007832898173,
+          "overestimate_pct": 21.409921671018274,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 106,
+          "MAE": 3650256.655024589,
+          "RMSE": 5501869.291437805,
+          "R2": 0.38818597764064,
+          "MedAE": 2570423.0194591237,
+          "MdAPE_pct": 31.572612103865517,
+          "mean_error": -2746171.4395413045,
+          "underestimate_pct": 81.13207547169812,
+          "overestimate_pct": 18.867924528301888,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 15.32
+    },
+    {
+      "model": "hist",
+      "fold": 1,
+      "train": {
+        "n": 25447,
+        "start": "2025-01-02",
+        "end": "2025-05-31"
+      },
+      "validation": {
+        "n": 10600,
+        "start": "2025-06-01",
+        "end": "2025-07-31"
+      },
+      "metrics": {
+        "n": 10600,
+        "MAE": 191857.97139584285,
+        "RMSE": 620504.3447029544,
+        "R2": 0.7333988215988629,
+        "MedAE": 79420.93193623461,
+        "MdAPE_pct": 17.50934704824198,
+        "mean_error": -5062.424956813489,
+        "underestimate_pct": 49.41509433962264,
+        "overestimate_pct": 50.58490566037735,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 6141,
+          "MAE": 82555.64258614587,
+          "RMSE": 148812.96234375806,
+          "R2": -0.9546987211759346,
+          "MedAE": 53092.57435522071,
+          "MdAPE_pct": 17.701523595390718,
+          "mean_error": 42213.28065950832,
+          "underestimate_pct": 39.830646474515554,
+          "overestimate_pct": 60.169353525484446,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2686,
+          "MAE": 155152.72206640008,
+          "RMSE": 237764.9744758572,
+          "R2": -1.8797539923057789,
+          "MedAE": 116681.63421634119,
+          "MdAPE_pct": 16.64322143799721,
+          "mean_error": -1298.1253786965267,
+          "underestimate_pct": 60.20104244229337,
+          "overestimate_pct": 39.79895755770663,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1215,
+          "MAE": 330891.31397615373,
+          "RMSE": 633575.3163707438,
+          "R2": -4.458445731899459,
+          "MedAE": 228391.03968614305,
+          "MdAPE_pct": 16.742253408416914,
+          "mean_error": -8715.120353425149,
+          "underestimate_pct": 63.37448559670782,
+          "overestimate_pct": 36.62551440329218,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 457,
+          "MAE": 766301.1965615951,
+          "RMSE": 1147108.2556345682,
+          "R2": -1.4205468523955287,
+          "MedAE": 580837.4079278703,
+          "MdAPE_pct": 21.43753910104112,
+          "mean_error": -272742.74491833575,
+          "underestimate_pct": 72.64770240700219,
+          "overestimate_pct": 27.35229759299781,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 101,
+          "MAE": 3542054.365290949,
+          "RMSE": 5174540.4862681925,
+          "R2": 0.28630429577803096,
+          "MedAE": 1930782.2968451148,
+          "MdAPE_pct": 31.963538403123117,
+          "mean_error": -1724498.9173068681,
+          "underestimate_pct": 72.27722772277228,
+          "overestimate_pct": 27.722772277227726,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 3.68
+    },
+    {
+      "model": "hist",
+      "fold": 2,
+      "train": {
+        "n": 36047,
+        "start": "2025-01-02",
+        "end": "2025-07-31"
+      },
+      "validation": {
+        "n": 5367,
+        "start": "2025-08-01",
+        "end": "2025-08-31"
+      },
+      "metrics": {
+        "n": 5367,
+        "MAE": 197955.49795217405,
+        "RMSE": 704571.6055937097,
+        "R2": 0.7088508684987833,
+        "MedAE": 83221.9279814579,
+        "MdAPE_pct": 17.656576471150856,
+        "mean_error": -8554.819176488261,
+        "underestimate_pct": 49.9906838084591,
+        "overestimate_pct": 50.0093161915409,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 3008,
+          "MAE": 87764.88160797964,
+          "RMSE": 158519.3799790891,
+          "R2": -1.4362367814530295,
+          "MedAE": 54000.30918778846,
+          "MdAPE_pct": 17.57010649151137,
+          "mean_error": 46962.99628715899,
+          "underestimate_pct": 39.993351063829785,
+          "overestimate_pct": 60.006648936170215,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 1410,
+          "MAE": 153630.61839262905,
+          "RMSE": 246226.36358116037,
+          "R2": -2.0636878645240726,
+          "MedAE": 113053.47260268178,
+          "MdAPE_pct": 17.025850086156304,
+          "mean_error": 188.54502351898765,
+          "underestimate_pct": 60.141843971631204,
+          "overestimate_pct": 39.858156028368796,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 676,
+          "MAE": 319063.9934872336,
+          "RMSE": 557955.848519601,
+          "R2": -3.1072578274063494,
+          "MedAE": 234078.21403695212,
+          "MdAPE_pct": 17.494838987570343,
+          "mean_error": -24002.701843538885,
+          "underestimate_pct": 65.23668639053254,
+          "overestimate_pct": 34.76331360946745,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 222,
+          "MAE": 692767.4908556071,
+          "RMSE": 962478.450407389,
+          "R2": -0.4046314575132208,
+          "MedAE": 555081.2946608751,
+          "MdAPE_pct": 20.416601520859494,
+          "mean_error": -181804.17318476955,
+          "underestimate_pct": 68.01801801801803,
+          "overestimate_pct": 31.98198198198198,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 51,
+          "MAE": 4163325.0810116376,
+          "RMSE": 6397180.275277318,
+          "R2": 0.09969409243713367,
+          "MedAE": 2724282.1108744973,
+          "MdAPE_pct": 31.077865841895267,
+          "mean_error": -2565841.2341548502,
+          "underestimate_pct": 78.43137254901961,
+          "overestimate_pct": 21.568627450980394,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 1.78
+    },
+    {
+      "model": "hist",
+      "fold": 3,
+      "train": {
+        "n": 41414,
+        "start": "2025-01-02",
+        "end": "2025-08-31"
+      },
+      "validation": {
+        "n": 9184,
+        "start": "2025-09-01",
+        "end": "2025-10-21"
+      },
+      "metrics": {
+        "n": 9184,
+        "MAE": 202270.59117922964,
+        "RMSE": 722349.386345938,
+        "R2": 0.7335215761482139,
+        "MedAE": 82156.70224844862,
+        "MdAPE_pct": 17.78590685751133,
+        "mean_error": -5445.622399028916,
+        "underestimate_pct": 48.943815331010455,
+        "overestimate_pct": 51.056184668989545,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 5182,
+          "MAE": 82641.57187229717,
+          "RMSE": 146473.35693287186,
+          "R2": -0.9788859976407003,
+          "MedAE": 54590.63190274729,
+          "MdAPE_pct": 17.75250172623351,
+          "mean_error": 41313.74489912768,
+          "underestimate_pct": 39.40563489000386,
+          "overestimate_pct": 60.59436510999614,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2441,
+          "MAE": 154868.70708841924,
+          "RMSE": 245511.75836037408,
+          "R2": -2.080177915105172,
+          "MedAE": 118065.60846342496,
+          "MdAPE_pct": 17.16546692651704,
+          "mean_error": 4598.002509095706,
+          "underestimate_pct": 57.96804588283491,
+          "overestimate_pct": 42.0319541171651,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1072,
+          "MAE": 301354.8973526546,
+          "RMSE": 433899.711389421,
+          "R2": -1.5512422666019319,
+          "MedAE": 228379.98555597756,
+          "MdAPE_pct": 16.917008991212473,
+          "mean_error": -70015.14539902203,
+          "underestimate_pct": 65.11194029850746,
+          "overestimate_pct": 34.88805970149254,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 383,
+          "MAE": 848608.3572306925,
+          "RMSE": 1469836.7019393477,
+          "R2": -2.5033587804549735,
+          "MedAE": 647725.0364346015,
+          "MdAPE_pct": 23.311997836894246,
+          "mean_error": -239314.25906269817,
+          "underestimate_pct": 70.23498694516971,
+          "overestimate_pct": 29.765013054830288,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 106,
+          "MAE": 3804721.878901592,
+          "RMSE": 5749922.863288226,
+          "R2": 0.33177468187684134,
+          "MedAE": 2442834.0773414,
+          "MdAPE_pct": 34.470085531790716,
+          "mean_error": -1024627.8227914986,
+          "underestimate_pct": 66.98113207547169,
+          "overestimate_pct": 33.0188679245283,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 2.05
+    },
+    {
+      "model": "hist_log",
+      "fold": 1,
+      "train": {
+        "n": 25447,
+        "start": "2025-01-02",
+        "end": "2025-05-31"
+      },
+      "validation": {
+        "n": 10600,
+        "start": "2025-06-01",
+        "end": "2025-07-31"
+      },
+      "metrics": {
+        "n": 10600,
+        "MAE": 188266.91092567105,
+        "RMSE": 603929.986242536,
+        "R2": 0.7474510317630617,
+        "MedAE": 76757.53864599805,
+        "MdAPE_pct": 17.75021318118176,
+        "mean_error": -46336.292055681566,
+        "underestimate_pct": 56.34905660377358,
+        "overestimate_pct": 43.65094339622642,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 6141,
+          "MAE": 74900.95349044078,
+          "RMSE": 133058.44041938172,
+          "R2": -0.5627271674225163,
+          "MedAE": 49234.18286806723,
+          "MdAPE_pct": 16.9669986129698,
+          "mean_error": 23981.071272091085,
+          "underestimate_pct": 47.744666992346524,
+          "overestimate_pct": 52.25533300765348,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2686,
+          "MAE": 153084.5858640898,
+          "RMSE": 223984.33589189113,
+          "R2": -1.5556120496604966,
+          "MedAE": 123493.89118859713,
+          "MdAPE_pct": 17.916019546125828,
+          "mean_error": -29646.28888992405,
+          "underestimate_pct": 65.48771407297096,
+          "overestimate_pct": 34.51228592702904,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1215,
+          "MAE": 322752.4953070556,
+          "RMSE": 506361.40299529623,
+          "R2": -2.4865322576051154,
+          "MedAE": 246960.49430688412,
+          "MdAPE_pct": 18.7440212823022,
+          "mean_error": -89577.33464808876,
+          "underestimate_pct": 69.79423868312757,
+          "overestimate_pct": 30.205761316872426,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 457,
+          "MAE": 787113.1898041831,
+          "RMSE": 1032547.4642174391,
+          "R2": -0.9612128564814864,
+          "MedAE": 661374.0842103914,
+          "MdAPE_pct": 24.901213024376275,
+          "mean_error": -480568.1683824442,
+          "underestimate_pct": 78.7746170678337,
+          "overestimate_pct": 21.2253829321663,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 101,
+          "MAE": 3689329.6362157133,
+          "RMSE": 5287679.353382705,
+          "R2": 0.25475387385658677,
+          "MedAE": 2363457.42797593,
+          "MdAPE_pct": 34.59117885481531,
+          "mean_error": -2280657.5046098526,
+          "underestimate_pct": 73.26732673267327,
+          "overestimate_pct": 26.732673267326735,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 1.72
+    },
+    {
+      "model": "hist_log",
+      "fold": 2,
+      "train": {
+        "n": 36047,
+        "start": "2025-01-02",
+        "end": "2025-07-31"
+      },
+      "validation": {
+        "n": 5367,
+        "start": "2025-08-01",
+        "end": "2025-08-31"
+      },
+      "metrics": {
+        "n": 5367,
+        "MAE": 197353.7698742191,
+        "RMSE": 746892.9714143248,
+        "R2": 0.6728235995771163,
+        "MedAE": 80174.96464882052,
+        "MdAPE_pct": 17.61566690698736,
+        "mean_error": -52600.76659588881,
+        "underestimate_pct": 56.86603316564188,
+        "overestimate_pct": 43.13396683435811,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 3008,
+          "MAE": 80776.40153658554,
+          "RMSE": 146978.42081200876,
+          "R2": -1.0944110448020772,
+          "MedAE": 51261.29211273699,
+          "MdAPE_pct": 16.614694681793026,
+          "mean_error": 29000.54550462613,
+          "underestimate_pct": 47.805851063829785,
+          "overestimate_pct": 52.194148936170215,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 1410,
+          "MAE": 149934.08117059604,
+          "RMSE": 217706.51592373295,
+          "R2": -1.395070320719734,
+          "MedAE": 119601.01108452165,
+          "MdAPE_pct": 17.704673209262022,
+          "mean_error": -29075.105651282523,
+          "underestimate_pct": 65.67375886524822,
+          "overestimate_pct": 34.326241134751776,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 676,
+          "MAE": 321887.26509209594,
+          "RMSE": 466342.35309147503,
+          "R2": -1.8692078936856364,
+          "MedAE": 259397.7283777258,
+          "MdAPE_pct": 19.19224022720949,
+          "mean_error": -105006.63266022358,
+          "underestimate_pct": 71.89349112426035,
+          "overestimate_pct": 28.106508875739642,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 222,
+          "MAE": 691666.327701968,
+          "RMSE": 881545.7301688589,
+          "R2": -0.17833846234593875,
+          "MedAE": 619751.785636317,
+          "MdAPE_pct": 22.785552620709726,
+          "mean_error": -383303.4100855766,
+          "underestimate_pct": 72.52252252252252,
+          "overestimate_pct": 27.47747747747748,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 51,
+          "MAE": 4581754.837063735,
+          "RMSE": 7060845.283036297,
+          "R2": -0.09679714575469989,
+          "MedAE": 2657544.9056915175,
+          "MdAPE_pct": 41.492176990979054,
+          "mean_error": -3381729.715930061,
+          "underestimate_pct": 80.3921568627451,
+          "overestimate_pct": 19.607843137254903,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 1.77
+    },
+    {
+      "model": "hist_log",
+      "fold": 3,
+      "train": {
+        "n": 41414,
+        "start": "2025-01-02",
+        "end": "2025-08-31"
+      },
+      "validation": {
+        "n": 9184,
+        "start": "2025-09-01",
+        "end": "2025-10-21"
+      },
+      "metrics": {
+        "n": 9184,
+        "MAE": 197279.32621393912,
+        "RMSE": 702001.9668006699,
+        "R2": 0.7483226732236958,
+        "MedAE": 78840.27359641244,
+        "MdAPE_pct": 17.291142248874525,
+        "mean_error": -51340.53702471991,
+        "underestimate_pct": 55.98867595818815,
+        "overestimate_pct": 44.01132404181185,
+        "negative_predictions": 0
+      },
+      "segments": [
+        {
+          "segment": "Até R$ 500 mil",
+          "n": 5182,
+          "MAE": 74980.58129133625,
+          "RMSE": 129586.06956655406,
+          "R2": -0.5488884481094101,
+          "MedAE": 49585.93047347601,
+          "MdAPE_pct": 16.396410025637206,
+          "mean_error": 23330.61483474582,
+          "underestimate_pct": 46.79660362794288,
+          "overestimate_pct": 53.20339637205712,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 500 mil–1 mi",
+          "n": 2441,
+          "MAE": 149160.77638416202,
+          "RMSE": 222534.5934675687,
+          "R2": -1.5306161438874888,
+          "MedAE": 120005.5801117,
+          "MdAPE_pct": 17.148210753168165,
+          "mean_error": -26935.44524427865,
+          "underestimate_pct": 64.39983613273249,
+          "overestimate_pct": 35.60016386726751,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 1–2 mi",
+          "n": 1072,
+          "MAE": 308718.4516630168,
+          "RMSE": 406931.044861953,
+          "R2": -1.2439574928699613,
+          "MedAE": 253581.43855598895,
+          "MdAPE_pct": 18.94195459767831,
+          "mean_error": -143271.93719519052,
+          "underestimate_pct": 72.6679104477612,
+          "overestimate_pct": 27.33208955223881,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "R$ 2–5 mi",
+          "n": 383,
+          "MAE": 835731.9870255308,
+          "RMSE": 1268434.5767679415,
+          "R2": -1.609051099412623,
+          "MedAE": 642857.0849080898,
+          "MdAPE_pct": 25.00072395460748,
+          "mean_error": -450991.2906571543,
+          "underestimate_pct": 75.71801566579634,
+          "overestimate_pct": 24.281984334203656,
+          "negative_predictions": 0
+        },
+        {
+          "segment": "Acima de R$ 5 mi",
+          "n": 106,
+          "MAE": 3850292.2012249115,
+          "RMSE": 5766119.033846649,
+          "R2": 0.32800491523470887,
+          "MedAE": 2692027.9256737884,
+          "MdAPE_pct": 38.02197594037502,
+          "mean_error": -1890039.0120043582,
+          "underestimate_pct": 71.69811320754717,
+          "overestimate_pct": 28.30188679245283,
+          "negative_predictions": 0
+        }
+      ],
+      "seconds": 2.05
+    }
+  ],
+  "holdout_used_for_selection": false,
+  "caveat": "O holdout V1 foi examinado anteriormente no diagnóstico histórico. Não é uma avaliação prospectiva completamente cega.",
+  "target_policy": "Métricas em reais após expm1; sem correção de viés lognormal. Comparação sem clipping na seleção.",
+  "representations": {
+    "ridge": "Quatro features V1, CEP completo com categorias raras agrupadas; log altera somente target.",
+    "trees": "Área, log1p(área), ACC, prefixo CEP de 3 dígitos e padrão. HGB usa categorias nativas; RF usa one-hot. Prefixo é agrupamento postal, não bairro."
+  }
+}
