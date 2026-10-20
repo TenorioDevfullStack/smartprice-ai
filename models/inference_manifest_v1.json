@@ -1,0 +1,87 @@
+{
+  "manifest_version": "1.0.0",
+  "model_version": "hist_log-2025-v1",
+  "schema_version": "1.0.0",
+  "algorithm": "HistGradientBoostingRegressor",
+  "selected_model": "hist_log",
+  "target_transform": "log1p/expm1",
+  "model_sha256": "0f907a054f95d29dc9ea93f7995e7053fed86930d03ccc3f02830d75df47b797",
+  "metadata_sha256": "0afa2b5e5f1a45bf25d7cc436531e8f7474de9939bb12141708d4755215bd702",
+  "required_inputs": [
+    "Área Construída (m2)",
+    "CEP_8",
+    "Padrão (IPTU)",
+    "ACC (IPTU)"
+  ],
+  "target": "Valor de Transação (declarado pelo contribuinte)",
+  "reference_period": {
+    "start": "2025-01-02",
+    "end": "2025-12-31"
+  },
+  "training_period": {
+    "n": 50598,
+    "start": "2025-01-02",
+    "end": "2025-10-21"
+  },
+  "dataset_sha256": "309b378bacfecba327906f800dc620bda30724c2c2c47dc0d83132d8f7ffae16",
+  "calibration": {
+    "id": "hist_log-2025-oof-q80-v1",
+    "sha256": "4e789882aaca39b4fdc92094a7f0b3302d168fc16b4a6ee2ddd5d138579ace16",
+    "price_bins": [
+      0,
+      500000,
+      1000000,
+      2000000,
+      5000000,
+      null
+    ],
+    "price_labels": [
+      "Até R$ 500 mil",
+      "R$ 500 mil–1 mi",
+      "R$ 1–2 mi",
+      "R$ 2–5 mi",
+      "Acima de R$ 5 mi"
+    ],
+    "quantile": 0.8,
+    "band_kind": "historical_absolute_error",
+    "statistical_confidence_interval": false
+  },
+  "python": "3.13",
+  "dependencies": {
+    "numpy": "2.4.1",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.7.0"
+  },
+  "domain": {
+    "city": "São Paulo/SP",
+    "property_type": "apartamento",
+    "transaction": "compra e venda integral",
+    "area_range": [
+      6.0,
+      1544.0
+    ],
+    "year_range": [
+      1919,
+      2025
+    ],
+    "valid_year_range": [
+      1900,
+      2025
+    ],
+    "year_range_source": "smartprice_demo.csv.gz; Data de Transação < 2025-10-22; mínimo/máximo de ACC (IPTU), somente desenvolvimento",
+    "geography_verification": "training_membership_only"
+  },
+  "limitations": [
+    "Modelo experimental; não substitui avaliação imobiliária profissional.",
+    "Valores declarados para ITBI e área construída cadastral podem divergir de preço de mercado e área útil.",
+    "Referência de 2025, sem atualização monetária nem validação em períodos posteriores.",
+    "Somente apartamentos e compras e vendas integrais do município de São Paulo.",
+    "CEP visto no treino indica cobertura histórica; não confirma existência postal ou município atual.",
+    "Sem dormitórios, vagas, conservação e atributos completos do condomínio.",
+    "Erros elevados nos imóveis caros; a faixa histórica não é intervalo de confiança nem garantia.",
+    "Seleção e calibração compartilham validação; o holdout já foi examinado historicamente."
+  ]
+}

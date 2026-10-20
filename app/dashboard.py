@@ -1,5 +1,6 @@
 """streamlit run app/dashboard.py — mercado ITBI e demonstração do modelo."""
 import json
+import logging
 import sys
 from pathlib import Path
 
@@ -16,9 +17,13 @@ import streamlit as st
 px.defaults.color_discrete_sequence=["#176B59","#C4863B","#688F85","#BC6650"]
 
 from app.helpers import filter_market, market_summary, money
-from src.config import AREA, CEP, STANDARD, TARGET, DATE, DATA_PATH, METRICS_PATH, REPORTS
+from src.config import AREA, CEP, STANDARD, TARGET, DATE, DATA_PATH, REPORTS
+from src.artifact_contract import artifact_fingerprint, load_metadata
 from src.data_processing import load_modeling_data
 from src.inference import estimate_price, load_bundle
+from src.inference_errors import InferenceError
+
+LOGGER = logging.getLogger("smartprice.dashboard")
 
 st.set_page_config(page_title="SmartPrice AI · São Paulo", page_icon="🏙️", layout="wide", initial_sidebar_state="expanded")
 
@@ -44,9 +49,14 @@ def market_data():
     return data
 
 
-@st.cache_resource
+@st.cache_resource(max_entries=2)
+def cached_model_bundle(fingerprint):
+    return load_bundle(expected_fingerprint=fingerprint)
+
+
 def model_bundle():
-    return load_bundle()
+    # Sempre confere os arquivos antes de consultar um recurso já em cache.
+    return cached_model_bundle(artifact_fingerprint())
 
 
 @st.cache_data
@@ -171,13 +181,19 @@ def distributions(data):
 
 def estimator(data,metadata):
     header("Uma referência para o imóvel.","Consulte o modelo usando características cadastrais. Os valores refletem o mercado observado em 2025, sem atualização monetária para anos posteriores.")
+    try:
+        bundle=model_bundle()
+    except InferenceError as exc:
+        st.error(str(exc))
+        return
     left,right=st.columns([1.15,1])
     with left:
         with st.form("estimate"):
             st.subheader("Características do apartamento")
             area=st.number_input("Área construída cadastral (m²)",min_value=1.,max_value=10000.,value=70.,step=1.)
             cep=st.text_input("CEP",value="01234-000",max_chars=12)
-            standard=st.selectbox("Padrão IPTU (código cadastral)",options=metadata["training_categories"][STANDARD],index=metadata["training_categories"][STANDARD].index("22"))
+            standards=metadata["training_categories"][STANDARD]
+            standard=st.selectbox("Padrão IPTU (código cadastral)",options=standards,index=standards.index("22") if "22" in standards else 0)
             year=st.number_input("ACC IPTU (ano cadastral de construção)",min_value=1900,max_value=2025,value=2009,step=1)
             submitted=st.form_submit_button("Estimar preço",type="primary",width="stretch")
         st.caption("Área útil, dormitórios, vagas e estado de conservação não estão disponíveis no modelo. Use a área construída cadastral para manter o contrato dos dados.")
@@ -188,12 +204,14 @@ def estimator(data,metadata):
         st.caption(f"Modelo selecionado: {metadata['selected_model']} · seleção por MAE em validação")
         if submitted:
             try:
-                result=estimate_price(area,cep,standard,year,model_bundle())
+                result=estimate_price(area,cep,standard,year,bundle)
                 st.metric("Preço estimado",money(result["prediction"]))
                 st.success(f"Faixa baseada no erro histórico do modelo: {money(result['lower'])} a {money(result['upper'])}")
+                reference=result["reference_period"]
+                st.caption(f"Referência: {reference['start'][:4]} · transações de {reference['start']} a {reference['end']}. Sem atualização monetária.")
                 for warning in result["warnings"]:
                     st.warning(warning)
-            except ValueError as exc:
+            except InferenceError as exc:
                 st.error(str(exc))
     st.info("Modelo experimental baseado em transações de ITBI de São Paulo. Não substitui avaliação imobiliária profissional.")
 
@@ -254,10 +272,18 @@ def main():
         st.markdown("[Código e metodologia](https://github.com/TenorioDevfullStack/smartprice-ai)")
     try:
         data=market_data()
-        metadata=json.loads(METRICS_PATH.read_text(encoding="utf-8"))
-    except (FileNotFoundError,ValueError) as exc:
-        st.error(f"Não foi possível carregar os artefatos: {exc}")
+    except (OSError,ValueError) as exc:
+        LOGGER.error("MARKET_UNAVAILABLE exception_type=%s",type(exc).__name__)
+        st.error("Os dados de mercado estão temporariamente indisponíveis.")
         st.stop()
+    try:
+        metadata=load_metadata()
+    except InferenceError:
+        metadata=None
+        st.warning("Estimativas e diagnósticos do modelo temporariamente indisponíveis. As análises de mercado continuam disponíveis.")
+    if page in ["Modelo","Performance","Diagnóstico"] and metadata is None:
+        st.error("Estimativa temporariamente indisponível. Tente novamente mais tarde.")
+        return
     if page=="Visão geral": overview(data,metadata)
     elif page=="Mercado": market(data)
     elif page=="Preço por m²": square_meter(data)
